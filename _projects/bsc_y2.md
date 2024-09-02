@@ -28,12 +28,11 @@ horizontal: false
     {% endfor %}
     </div>
   </div>
-  {% else %}
+{% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for course in sorted_courses %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
 {% endif %}
 </div>
