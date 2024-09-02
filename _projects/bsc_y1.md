@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bachelor year 2
+title: Bachelor year 1
 description: Courses during year 2 of my bachelor's degree.
 img: assets/img/3.jpg
 importance: 2
