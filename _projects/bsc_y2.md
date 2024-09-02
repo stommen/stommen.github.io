@@ -12,6 +12,7 @@ horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
 
+<div class="courses">
 <!-- Display projects without categories -->
 
 {% assign sorted_courses = site.courses %}
@@ -22,16 +23,17 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_courses %}
+    {% for course in sorted_courses %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_courses %}
+    {% for course in sorted_courses %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
 {% endif %}
+</div>
