@@ -3,9 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: |
-  Physics MSc student @ Chalmers University of Technology
-  Kemivägen 7A, Gothenburg, Sweden
-  Email: oscar.stommendal01@gmail.com
+  <p>Physics MSc student @ Chalmers University of Technology<p>
+  <p>Kemivägen 7A, Gothenburg, Sweden<p>
+  <p>Email: <a href="mailto:oscar.stommendal01@gmail.com">oscar.stommendal01@gmail.com</a><p>
 
 profile:
   align: right
