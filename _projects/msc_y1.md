@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Master year 1
+description: Courses during year 1 of my master's degree.
 img:
-importance: 4
+importance: 3
 category: fun
 ---
 

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Bachelor year 2
+description: Courses during year 2 of my bachelor's degree.
+img: assets/img/3.jpg
+importance: 2
+category: work
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

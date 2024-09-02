@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Bachelor year 3
+description: Courses during year 3 of my bachelor's degree.
+img: assets/img/7.jpg
+redirect: https://unsplash.com
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

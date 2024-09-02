@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>Kemivägen 7A</p>
     <p>Gothenburg, Sweden</p>
+    <p>070-661 73 53<p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
