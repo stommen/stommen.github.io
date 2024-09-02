@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Education
+title: projects
 permalink: /projects/
 description: Courses taken during my engineering education. I hold a bachelor's degree 
 in engineering physics and am now pursuing a master's in physics.
