@@ -12,7 +12,7 @@ horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
 
-<div class="courses">
+<div class="projects">
 <!-- Display projects without categories -->
 
 {% assign sorted_courses = site.courses %}
