@@ -5,13 +5,16 @@ description: Courses during year 2 of my bachelor's degree.
 img: assets/img/3.jpg
 importance: 2
 category: Bachelor
-giscus_comments: false
+nav: true
+nav_order: 3
+display_categories:
+horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.courses %}
+{% assign sorted_courses = site.courses %}
 
   <!-- Generate cards for each project -->
 
@@ -24,10 +27,13 @@ giscus_comments: false
     {% endfor %}
     </div>
   </div>
-  {% else %}
+{% endif %}
+
+{% else %}
+
   <div class="row row-cols-1 row-cols-md-3">
     {% for course in sorted_courses %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
+{% endif %}
