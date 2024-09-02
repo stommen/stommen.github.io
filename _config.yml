@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -189,15 +189,15 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-#collections:
-#  news:
-#    defaults:
-#      layout: post
-#    output: true
-#    permalink: /:collection/:title/
-#  projects:
-#    output: true
-#    permalink: /:collection/:title/
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
+  projects:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: false
