@@ -2,8 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Courses taken during my engineering education. I hold a bachelor's degree 
-in engineering physics and am now pursuing a master's in physics.
+description: |
+  Courses taken during my engineering education. I hold a bachelor's degree 
+  in engineering physics and am now pursuing a master's in physics.
 nav: true
 nav_order: 3
 display_categories: [Bachelor, Master]
