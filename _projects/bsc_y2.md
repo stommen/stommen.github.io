@@ -31,5 +31,3 @@ giscus_comments: false
     {% endfor %}
   </div>
   {% endif %}
-{% endif %}
-</div>

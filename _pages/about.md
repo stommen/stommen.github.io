@@ -3,9 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: |
-  <p>Physics MSc student @ Chalmers University of Technology<p>
-  <p>Kemivägen 7A, Gothenburg, Sweden<p>
-  <p>Email: <a href="mailto:oscar.stommendal01@gmail.com">oscar.stommendal01@gmail.com</a><p>
+  <p><i>Physics MSc student @ Chalmers University of Technology<br>
+  Kemivägen 7A, Gothenburg, Sweden<br>
+  Email: <a href="mailto:oscar.stommendal01@gmail.com">oscar.stommendal01@gmail.com</a></i></p>
 
 profile:
   align: right
