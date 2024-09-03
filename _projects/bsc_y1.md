@@ -15,7 +15,7 @@ horizontal: false
 <div class="projects">
 <!-- Display projects without categories -->
 
-{% assign sorted_courses = site.courses | where: "path", "bsc_y1" %}
+{% assign sorted_courses = site.courses | where: "path", "bsc_y1_courses" %}
 
   <!-- Generate cards for each project -->
 
