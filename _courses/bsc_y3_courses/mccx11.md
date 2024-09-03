@@ -1,5 +1,5 @@
 ---
-title: "Bachelor's Thesis in Microtechnology and Nanoscience"
+title: Bachelor's Thesis in Microtechnology and Nanoscience
 description: |
   <p>15 ECTS<br>
   <i>Examiner: Per Lundgren</i></p>
