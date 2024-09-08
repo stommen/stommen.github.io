@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bachelor year 2
-description: Courses during year 2 of my bachelor's degree.
+title: Bachelor year 3
+description: Courses during year 3 of my bachelor's degree.
 img: assets/img/3.jpg
 importance: 2
 category: Bachelor
@@ -12,10 +12,10 @@ horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
 
-<div class="projects">
+<div class="education">
 <!-- Display projects without categories -->
 
-{% assign sorted_courses = site.courses | where: "folder", "bsc_y2_courses" %}
+{% assign sorted_courses = site.courses | where: "folder", "bsc_y3_courses" %}
 
   <!-- Generate cards for each project -->
 

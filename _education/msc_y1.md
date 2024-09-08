@@ -12,7 +12,7 @@ horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
 
-<div class="projects">
+<div class="education">
 <!-- Display projects without categories -->
 
 {% assign sorted_courses = site.courses | where: "folder", "msc_y1_courses" %}

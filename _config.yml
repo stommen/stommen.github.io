@@ -195,7 +195,7 @@ collections:
   #    layout: post
   #  output: true
   #  permalink: /:collection/:title/
-  projects:
+  education:
     output: true
     permalink: /:collection/:title/
   courses:
