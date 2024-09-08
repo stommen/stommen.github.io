@@ -21,8 +21,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hard-working, curious and very competitive MSc student in physics at Chalmers University of Technology with a particularly burning interest in science. When I am not studying, I enjoy spending my time either in the gym or surrounded by friends and family.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Things that especially catches my eyes and ears include:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- Quantum physics :cat:
+- (Applied) Quantum computing :atom_symbol:
+- Plasma physics :boom:
+- Computational physics :computer:
+- Astrophysics :star:
+- Economy :chart_with_upwards_trend:
+- Maths :nerd_face:
+- Programming (of course applied in physics) :technologist:
