@@ -21,7 +21,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hard-working, curious and very competitive MSc student in physics at Chalmers University of Technology with a particularly burning interest in science. When I am not studying, I enjoy spending my time either in the gym or surrounded by friends and family.
+Hard-working, curious and very competitive MSc student in physics at Chalmers University of Technology with a particularly burning interest in science. Since 2023, I hold a BSc in Engineering Physics, and have after that also pursued one year in economics at bachelor level. When I am not studying, I enjoy spending my time either in the gym or surrounded by friends and family.
 
 Things that especially catches my eyes and ears include:
 

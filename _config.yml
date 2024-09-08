@@ -190,15 +190,18 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
+  #news:
+  #  defaults:
+  #    layout: post
+  #  output: true
+  #  permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/
   courses:
+    output: true
+    permalink: /:collection/:title/
+  career:
     output: true
     permalink: /:collection/:title/
 
