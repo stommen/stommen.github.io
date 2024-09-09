@@ -3,7 +3,6 @@ layout: page
 title: Master year 1
 description: Courses during year 1 of my master's degree.
 img:
-importance:
 category: Master
 nav: true
 nav_order: 3

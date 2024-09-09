@@ -3,7 +3,6 @@ layout: page
 title: Bachelor year 3
 description: Courses during year 3 of my bachelor's degree.
 img: assets/img/3.jpg
-importance:
 category: Bachelor
 nav: true
 nav_order: 3
