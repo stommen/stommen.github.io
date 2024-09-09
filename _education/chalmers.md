@@ -9,11 +9,10 @@ nav: true
 nav_order: 3
 display_categories: [Bachelor, Master]
 horizontal: false
-uni: Chalmers
 ---
 <!-- markdownlint-disable MD033 -->
-<div class="education">
-  {% if site.enable_education_categories and page.display_categories %}
+<div class="school">
+  {% if site.enable_school_categories and page.display_categories %}
     <!-- Display categorized projects -->
     {% for category in page.display_categories %}
     <a id="{{ category }}" href=".#{{ category }}">
