@@ -9,6 +9,7 @@ nav: true
 nav_order: 3
 display_categories: [Bachelor, Master]
 horizontal: false
+uni: Chalmers
 ---
 <!-- markdownlint-disable MD033 -->
 <div class="education">

@@ -15,7 +15,9 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_education = site.education | sort: "importance" %}
+{% assign chalmers_education = site.education | where: "uni", "Chalmers" %}
+{% assign gu_education = site.education | where: "uni", "GU" %}
+{% assign sorted_education = chalmers_education | concat: gu_education %}
 
   <!-- Generate cards for each project -->
 
