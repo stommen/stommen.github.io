@@ -2,7 +2,7 @@
 layout: page
 title: Bachelor year 1
 description: Courses during year 1 of my bachelor's degree.
-img: assets/img/3.jpg
+img: assets/img/bsc_y1.jpeg
 category: Bachelor
 nav: true
 nav_order: 3
