@@ -15,7 +15,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign schools = site.schools %}
+{% assign education = site.education %}
 
   <!-- Generate cards for each project -->
 
@@ -23,14 +23,14 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for x in schools %}
+    {% for x in education %}
       {% include x_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for x in schools %}
+    {% for x in education %}
       {% include x.liquid %}
     {% endfor %}
   </div>

@@ -19,21 +19,21 @@ uni: Chalmers
     <a id="{{ category }}" href=".#{{ category }}">
       <h2 class="category">{{ category }}</h2>
     </a>
-    {% assign categorized_education = site.education | where: "category", category %}
-    {% assign sorted_education = categorized_education | where: "school", "Chalmers" %}
+    {% assign categorized_school = site.schools | where: "category", category %}
+    {% assign sorted_school = categorized_school | where: "school", "Chalmers" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
-      {% for education in sorted_education %}
-        {% include education_horizontal.liquid %}
+      {% for x in sorted_school %}
+        {% include x_horizontal.liquid %}
       {% endfor %}
       </div>
     </div>
     {% else %}
     <div class="row row-cols-1 row-cols-md-3">
-      {% for education in sorted_education %}
-        {% include education.liquid %}
+      {% for education in sorted_school %}
+        {% include x.liquid %}
       {% endfor %}
     </div>
     {% endif %}
