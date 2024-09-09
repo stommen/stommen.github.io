@@ -4,7 +4,7 @@ title: Gothenburg University
 description: Bachelor of Science in Business and Economics
 img: assets/img/gu.png
 importance: 1
-category: Economy
+category:
 nav: true
 nav_order: 3
 display_categories:
