@@ -207,6 +207,9 @@ collections:
   career:
     output: true
     permalink: /:collection/:title/
+  schools:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: false

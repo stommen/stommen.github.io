@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: about
 title: About
+nav: true
+nav_order: 2
 permalink: /about/
 subtitle: |
   <p><i>Physics MSc student @ Chalmers University of Technology<br>
