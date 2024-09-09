@@ -40,6 +40,7 @@ horizontal: false
   {% endfor %}
 
 {% else %}
+</div>
 
 <div class="education">
 <!-- Display projects without categories -->
