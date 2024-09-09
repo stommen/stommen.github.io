@@ -13,7 +13,7 @@ horizontal: false
 <!-- markdownlint-disable MD033 -->
 
 <div class="education">
-{% if site.enable_project_categories and page.display_categories %}
+{% if site.enable_education_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
@@ -26,6 +26,7 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for education in sorted_education %}
+    {% for education in sorted_education %}
       {% include education_horizontal.liquid %}
     {% endfor %}
     </div>
@@ -33,36 +34,30 @@ horizontal: false
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for education in sorted_education %}
+    {% for education in sorted_education %}
       {% include education.liquid %}
     {% endfor %}
   </div>
   {% endif %}
   {% endfor %}
-
 {% else %}
-</div>
-
-<div class="education">
 <!-- Display projects without categories -->
-
-{% assign sorted_education = site.education | where: "folder", "chalmers" %}
-
+{% assign sorted_education = site.education | sort: "importance" %}
   <!-- Generate cards for each project -->
-
 {% if page.horizontal %}
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for education in sorted_education %}
+    {% for education in sorted_education %}
       {% include education_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
-{% else %}
+  {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for education in education_courses %}
+    {% for education in sorted_education %}
+    {% for education in sorted_education %}
       {% include education.liquid %}
     {% endfor %}
   </div>
-{% endif %}
-</div>
