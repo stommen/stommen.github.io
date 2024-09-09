@@ -3,8 +3,10 @@ layout: page
 title: Education
 permalink: /education/
 description: |
-  Courses taken during my engineering education. I hold a bachelor's degree 
-  in engineering physics and am now pursuing a master's in physics.
+  Courses taken during my university time. I hold a bachelor's degree 
+  in engineering physics from Chalmers and am now pursuing a Master's in physics. I have also completed
+  one of two years on my way to a Bachelor of Science in Business and Economics from
+  Gothenburg University.
 nav: true
 nav_order: 4
 display_categories:
