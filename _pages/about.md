@@ -28,7 +28,7 @@ Since 2023, I hold a BSc in Engineering Physics, and have after that also pursue
 
 When I'm not studying, I enjoy spending my time either in the gym or surrounded by friends and family. With my passion for training, cooking has also become an interest of mine, and eating – either my dishes or others almost gives me most joy of all in life, maybe even more than solving a really tough problem gives. The family and I enjoy playing board games, traveling and skiing. When my friends and I come together, I enjoy grabbing a beer and talk about life, and maybe hit the dance floor at a club. Traveling and skiing is something I really love doing, and probably would do more of if time and my economy allowed.
 
-<img src="/assets/img/about_1.jpeg" alt="Me skiing in Norway." style="float: left; margin-right: 15px; width: 200px;">
+<img src="/assets/img/about_1.jpeg" alt="Me skiing in Norway." style="float: right; margin-right: 15px; width: 200px;">
 
 As a person, I would describe myself as driven, calm, humble, easygoing and caring. In my friend groups, I go by the nickname "Stommen", which loosely translates to "The Core" or "The Foundation". It doesn't directly describe my personality, but I know my friends and most people around me see me as someone very steady and reliable — like the backbone of the group! However, I also have a "darker" side, where I'm a very bad looser, extremely stubborn (for good and bad), very competitive and goal orientated. Most of these maybe aren't "bad" or "dark" traits, even though I have crashed some board games while loosing to my family, but they definitely bring out an alternate side of my personality.
 

@@ -167,7 +167,7 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
-  margin-bottom: 20px; /* Skapar mellanrum mellan korten vertikalt */
+  margin-bottom: 20px !important; /* Skapar mellanrum mellan korten vertikalt */
 
   .card-img {
     width: 100%;
