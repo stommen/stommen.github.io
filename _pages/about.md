@@ -1,20 +1,11 @@
 ---
-layout: about
+layout: page
 title: About
-permalink: /
+permalink: /about/
 subtitle: |
   <p><i>Physics MSc student @ Chalmers University of Technology<br>
   Kemivägen 7A, Gothenburg, Sweden<br>
   Email: <a href="mailto:oscar.stommendal01@gmail.com">oscar.stommendal01@gmail.com</a></i></p>
-
-profile:
-  align: right
-  image: cv_bild.png
-  image_circular: false # crops the image to make it circular
-  more_info: #>
-    #<p>Kemivägen 7A</p>
-    #<p>Gothenburg, Sweden</p>
-    #<p>070-661 73 53<p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

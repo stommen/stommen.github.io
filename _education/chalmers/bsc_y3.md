@@ -3,12 +3,13 @@ layout: page
 title: Bachelor year 3
 description: Courses during year 3 of my bachelor's degree.
 img: assets/img/3.jpg
-importance: 2
+importance:
 category: Bachelor
 nav: true
 nav_order: 3
 display_categories:
 horizontal: false
+school: Chalmers
 ---
 <!-- markdownlint-disable MD033 -->
 

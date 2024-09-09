@@ -19,7 +19,7 @@ horizontal: false
       <h2 class="category">{{ category }}</h2>
     </a>
     {% assign categorized_education = site.education | where: "category", category %}
-    {% assign sorted_education = categorized_education | sort: "importance" %}
+    {% assign sorted_education = categorized_education | where: "school", "Chalmers" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
     <div class="container">
