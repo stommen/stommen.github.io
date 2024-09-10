@@ -5,7 +5,7 @@ description: Summerworker
 img: assets/img/ICA_logo.png
 importance: 2
 category:
-pdf: "assets/pdf/ica_OS_aug23.pdf"
+pdf: "ica_OS_aug23.pdf"
 nav: true
 nav_order: 3
 display_categories:

@@ -5,7 +5,7 @@ description: Summer Intern 2023 – Digital Engineering and Simulation
 img: assets/img/gkn.png
 importance: 2
 category:
-pdf: "assets/pdf/gkn_OS_july24.pdf"
+pdf: "gkn_OS_july24.pdf"
 nav: true
 nav_order: 3
 display_categories:

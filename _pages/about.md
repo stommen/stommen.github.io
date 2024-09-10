@@ -13,7 +13,7 @@ So, you want to know more about me, then you are in the right place!
 
 I am Oscar, as you already know, a 23 year-old guy born and raised in the city of Trollhättan, Sweden. I write city, however, in most countries Trollhättan would probably be referred to as what we in Sweden call a "håla", or a smaller town in more formal english. There I grew up with my parents and younger brother, and I could probably write a whole book about them and what they mean to me, however that is not really the goal here (maybe I should add that section later on). I have always been interested in science. Ever since I first peeked at the black night sky, fascinated by what's out there, space and astronomy have always been my greatest passion. Although, I have always been into every science flavour - from maths and physics to ecology, genetics and chemical reactions.
 
-<figure style="float: right; margin-right: 15px; width: 250px;">
+<figure style="float: left; margin-left: 15px; width: 250px;">
     <img src="/assets/img/about_2.jpeg" alt="Me and my brother (not usually this handsome)." style="width: 100%;">
     <figcaption style="text-align: center;">Me and my brother (not usually this handsome).</figcaption>
 </figure>

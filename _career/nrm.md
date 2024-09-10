@@ -5,7 +5,7 @@ description: Part-time consulant
 img: assets/img/nrm.png
 importance: 2
 category:
-pdf: "assets/pdf/nrm_OS_july24.pdf"
+pdf: "nrm_OS_july24.pdf"
 nav: true
 nav_order: 3
 display_categories:
