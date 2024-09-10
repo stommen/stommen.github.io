@@ -1,3 +1,6 @@
 [submodule "cv"]
 	path = cv
 	url = https://github.com/stommen/cv
+[submodule "_cv"]
+	path = _cv
+	url = https://github.com/stommen/cv
