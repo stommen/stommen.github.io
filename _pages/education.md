@@ -33,7 +33,7 @@ horizontal: false
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for x in education %}
-      {% include x.liquid %}
+      {% include x_smaller.liquid %}
     {% endfor %}
   </div>
   {% endif %}
