@@ -23,15 +23,15 @@ horizontal: false
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for career in sorted_career %}
-      {% include career_horizontal.liquid %}
+    {% for x in sorted_career %}
+      {% include x_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for career in sorted_career %}
-      {% include career.liquid %}
+    {% for x in sorted_career %}
+      {% include x.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -49,15 +49,15 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for career in sorted_career %}
-      {% include career_horizontal.liquid %}
+    {% for x in sorted_career %}
+      {% include x_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for career in sorted_career %}
-      {% include career.liquid %}
+    {% for x in sorted_career %}
+      {% include x.liquid %}
     {% endfor %}
   </div>
   {% endif %}
