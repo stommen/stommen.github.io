@@ -1,4 +1,4 @@
-<div class="col">
+<div class="col mb-3">
   <a href="{% if x.redirect %}{{ x.redirect }}{% else %}{{ x.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if x.img %}
@@ -14,7 +14,7 @@
       <div class="card-body">
         <h2 class="card-title">{{ x.title }}</h2>
         <p class="card-text">{{ x.description }}</p>
-        <div class="row ml-1 mr-1 p-0 mb-3">
+        <div class="row ml-1 mr-1 p-0">
           {% if x.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
