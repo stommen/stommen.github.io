@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: page_w_pdf
 title: GKN Aerospace 
 description: Summer Intern 2023 – Digital Engineering and Simulation
 img: assets/img/gkn.png
 importance: 2
 category:
+pdf: "gkn_OS_july24.pdf"
 nav: true
 nav_order: 3
 display_categories:
@@ -20,4 +21,6 @@ During the summer I mainly worked on two projects:
 
 - Another Python program to simplify stress calculations by executing these through Python instead of the regular calculator program, which is a lot slower. The program also related each unit load case contribution to the total stress at a certain node, making analyzation of the total load easier.
 
-As a side task, I mapped the patent portfolio of MTU (one of GKN's greatest competitiors) together with the Intellectual Property team.
+As a side task, I mapped the patent portfolio of MTU (one of GKN's greatest competitors) together with the Intellectual Property team.
+
+***For reference, see the attached PDF at the top of this page.***

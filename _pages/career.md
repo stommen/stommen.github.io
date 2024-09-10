@@ -2,7 +2,9 @@
 layout: page
 title: Career
 permalink: /career/
-description:
+description: |
+  Here I have collected my working experiences, from simple summer work to
+  recent, more engineering-like, employment.
 nav: true
 nav_order: 3
 display_categories:
