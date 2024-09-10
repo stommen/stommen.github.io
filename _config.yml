@@ -195,7 +195,7 @@ collections:
   #    layout: post
   #  output: true
   #  permalink: /:collection/:title/
-  about:
+  cv:
     output: true
     permalink: /:collection/:title/
   education:
