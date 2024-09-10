@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: page_w_pdf
 title: GKN Aerospace 
 description: Research Technician – Digital Engineering and Simulation
 img: assets/img/gkn.png
 importance: 2
 category:
+pdf: "assets/pdf/gkn_OS_july24.pdf"
 nav: true
 nav_order: 3
 display_categories:
@@ -19,3 +20,5 @@ During the gap year I chose to have between my engineering BSc and MSc, I had th
 - ***Python Quality Assurance Project:*** I developed a Python package for creating a Quality Assurance document for Python projects used internally at GKN. This project improved my Python coding skills significantly, and broadened my language knowledge to include HTML and YAML. Additionally, it strengthened my collaborative coding abilities through the use of Microsoft Azure and Git.
 
 Both tasks also gave me a great opportunity to peek into the life and work of an engineer, with weekly meetings, follow-ups, teamwork, and problem-solving, which I value a lot from an experience perspective.
+
+***For reference, see the attached PDF at the top of this page.***

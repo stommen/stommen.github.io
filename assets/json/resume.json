@@ -23,13 +23,11 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Norra Älvsborgs Länssjukhus (NÄL), Trollhättan, Sweden", 
+      "position": "Summer Worker",
+      "startDate": "2019-07",
+      "endDate": "2019-08",
+      "summary": "Responsible for the kitchen area at the X-ray department. Also got to see much of the daily work and help with simple tasks, such like calling patients to appointments."
     }
   ],
   "education": [
