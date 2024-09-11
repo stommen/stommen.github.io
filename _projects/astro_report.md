@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Reports
-description: Some reports I have submitted during my time at Chalmers.
-img:
+title: Experimental Physics
+description: Reports as part of the [TIF091/096-course](https://stommen.github.io/courses/tif091/) at Chalmers."
+img: assets/img/Interference_pattern.jpg
 category: Reports
 display_categories:
 horizontal: false
