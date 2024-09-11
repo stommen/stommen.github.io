@@ -5,10 +5,8 @@ description: |
   Here you can read more of my activities outside of school during my exchange, e.g how the concept of "Stommen" in Asia went, where I actually went physically and my tier list of hawker centers in Singapore.
 img: assets/img/
 importance: 1
-category:
+category: Nanyang
 pdf:
-nav: true
-nav_order: 3
 display_categories:
 horizontal: false
 ---

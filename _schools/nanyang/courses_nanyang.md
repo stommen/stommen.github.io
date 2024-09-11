@@ -5,9 +5,7 @@ description: |
   Courses attended during my exchange semester in Singapore.
 img: assets/img/
 importance: 1
-category:
-nav: true
-nav_order: 3
+category: Nanyang
 display_categories:
 horizontal: false
 ---
