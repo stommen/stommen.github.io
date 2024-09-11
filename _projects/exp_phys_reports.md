@@ -9,9 +9,8 @@ display_categories:
 horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
-<p>Report as part of the <a href="https://stommen.github.io/courses/tif091/" target="_blank" rel="noopener noreferrer">TIF091/096-course</a> at Chalmers.<p>
+Reports as part of the [TIF091/096-course](https://stommen.github.io/courses/tif091) at Chalmers.
 
-<div class="reports>
 <!-- Display projects without categories -->
 
 {% assign sorted_reports= site.reports %}
@@ -34,4 +33,3 @@ horizontal: false
     {% endfor %}
   </div>
 {% endif %}
-</div>
