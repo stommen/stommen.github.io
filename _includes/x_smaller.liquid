@@ -1,6 +1,6 @@
 <div class="col mb-4">
   <a href="{% if x.redirect %}{{ x.redirect }}{% else %}{{ x.url | relative_url }}{% endif %}">
-    <div class="card h-30 hoverable">
+    <div class="card h-150 hoverable">
       {% if x.img %}
         {%
           include figure.liquid
