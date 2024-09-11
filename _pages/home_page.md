@@ -35,4 +35,4 @@ Things that especially catches my eyes and ears include:
 - Programming (of course applied in physics) :technologist:
 - AI/Machine Learning/Deep Learning :robot:
 
-On this web page, you can read more about me, my education, examining the courses I've taken, my career, projects and maybe peek at my CV.
+On this web page, you can read more about me, my education, my career, my projects, examine the courses I've taken and maybe peek at my CV.

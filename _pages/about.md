@@ -9,18 +9,20 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+<!-- markdownlint-disable MD033 -->
+
 So, you want to know more about me, then you are in the right place!
 
 I am Oscar, as you already know, a 23 year-old guy born and raised in the city of Trollhättan, Sweden. I write city, however, in most countries Trollhättan would probably be referred to as what we in Sweden call a "håla", or a smaller town in more formal english. There I grew up with my parents and younger brother, and I could probably write a whole book about them and what they mean to me, however that is not really the goal here (maybe I should add that section later on). I have always been interested in science. Ever since I first peeked at the black night sky, fascinated by what's out there, space and astronomy have always been my greatest passion. Although, I have always been into every science flavour - from maths and physics to ecology, genetics and chemical reactions.
 
-<figure style="float: left; margin-right: 15px; width: 250px;">
-    <img src="/assets/img/about_2.jpeg" alt="Me and my brother (not usually this handsome)." style="width: 100%;">
-    <figcaption style="text-align: left;">Me and my brother (not usually this handsome).</figcaption>
+<figure style="float: left; margin-right: 15px; width: 225px;">
+  <img src="/assets/img/about_2.jpeg" alt="Me and my brother (not usually this handsome)." style="width: 100%;">
+  <figcaption style="text-align: left;">Me and my brother (not usually this handsome).</figcaption>
 </figure>
 
 During high school, where I (of course) studied the natural sciences program I got to dig deeper into the world of science, which I enjoyed very much. This was an important part of my life, since it was at this point I think I understood that me, maths and physics was the best fit - even though I had a hard time letting go of the chemistry experiments. However, I just couldn't escape that I though math and physics was the most fun. This led me to apply to Chalmers in 2020.
 
-Since 2023, I hold a BSc in Engineering Physics, and have after that also pursued one year in economics at bachelor level, while working part time at GKN Aerospace. After my current MSc, my plan is to continue one year with economics and receive a double degree. It would be really cool to work with something that covers both physics and economics, for example Quantum finance, which I find very interesting. Pursuing a PhD is also something I'm considering, if a position in the right field and subject appears.
+Since 2023, I hold a BSc in Engineering Physics, and have after that also pursued one year in economics at bachelor level, while working part time at GKN Aerospace. Since september 2024, I am studying the master's program in physics at Chalmers. After this, my plan is to continue one year with economics and receive a double degree. It would be really cool to work with something that covers both physics and economics, for example Quantum finance, which I find very interesting. Pursuing a PhD is also something I'm considering, if a position in the right field and subject appears.
 
 When I'm not studying, I enjoy spending my time either in the gym or surrounded by friends and family. With my passion for training, cooking has also become an interest of mine, and eating – either my dishes or others almost gives me most joy of all in life, maybe even more than solving a really tough problem gives. The family and I enjoy playing board games, traveling and skiing. When my friends and I come together, I enjoy grabbing a beer and talk about life, and maybe hit the dance floor at a club. Traveling and skiing is something I really love doing, and probably would do more of if time and my economy allowed.
 
