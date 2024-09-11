@@ -12,7 +12,7 @@ layout: page_w_pdf
 
 <p style="text-align:center; font-size:35px">Gibbs objective function for modification of the optimization process in a hybrid quantum algorithm</p>
 
-<p style="text-align:center; font-size:22px">– A numerical comparison of the performance of a Gibbs function and the expected value of the Hamiltonian as an objective function in a hybrid quantum algorithm applied to the Max-Cut problem.</p>
+<p style="text-align:center; font-size:20px">– A numerical comparison of the performance of a Gibbs function and the expected value of the Hamiltonian as an objective function in a hybrid quantum algorithm applied to the Max-Cut problem.</p>
 
 <p style="text-align:center; font-size:18px">William Colliander <br>
                                             Pontus Lindgren <br>

@@ -13,7 +13,7 @@ horizontal: false
 
 <p style="text-align:center; font-size:35px">SALSA-report –</p>
 
-<p style="text-align:center; font-size:22px">A map of The Milky Way.</p>
+<p style="text-align:center; font-size:20px">A map of The Milky Way.</p>
 
 <p style="text-align:center; font-size:18px">Jonatan Haraldsson <br>
                                             Adrian Skobe <br>
@@ -22,7 +22,7 @@ horizontal: false
 <p style="text-align:center; font-size:18px; font-weight: bold">Abstract</p>
 
 <p style="text-align:left; font-size:16px">The following work has, through an analytical and experimental approach, used the 21-cm radio wave emitted by the hydrogen atom to create a map and rotation curve of our galaxy. This has been done by remote control of the SALSA-telescopes located at the Onsala Space Observatory. The intensity of the 21-cm line at different galactic longitudes has been analyzed and this led to the creation of the rotation curve which shows the velocity
-\( v(R) )\ of the hydrogen molecular clouds at different distances from our solar system. Using
+\( v(R) \) of the hydrogen molecular clouds at different distances from our solar system. Using
 simple trigonometry, the distance from the clouds to us could be determined and by so
 doing, a map of our galaxy was plotted.
 
