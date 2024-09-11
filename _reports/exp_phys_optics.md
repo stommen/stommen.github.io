@@ -7,7 +7,7 @@ img: assets/img/Interference_pattern.jpg
 category: 
 importance: 1
 layout: page_w_pdf
-pdf: 
+pdf: "optics_report.pdf"
 ---
 
 <!-- markdownlint-disable MD033 -->
