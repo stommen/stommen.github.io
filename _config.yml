@@ -195,6 +195,12 @@ collections:
   #    layout: post
   #  output: true
   #  permalink: /:collection/:title/
+  reports:
+    output: true
+    permalink: /:collection/:title/
+  theses:
+    output: true
+    permalink: /:collection/:title/
   cv:
     output: true
     permalink: /:collection/:title/
