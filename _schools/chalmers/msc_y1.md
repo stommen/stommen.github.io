@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Master year 1
-description: Courses during year 1 of my master's degree.
+description: |
+  Courses during year 1 of my master's degree. Note that I during spring 2025 will attend a exchange semester at Nanyang Technological University in Singapore as part of this academic year. This page contains the courses I attended at Chalmers during fall 2024.
 img:
 category: Master
 nav: true

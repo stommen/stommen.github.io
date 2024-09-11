@@ -2,7 +2,7 @@
 title: "Bachelor's"
 description:
 img: assets/img/bsc_thesis.pdf
-category: 
+category: Theses
 pdf: "bsc_thesis_gibbs_function.pdf"
 importance: 1
 layout: page_w_pdf
