@@ -1,7 +1,7 @@
 ---
-title: "Bachelor's"
-description:
-img: assets/img/bsc_thesis.pdf
+title: "Bachelor´s"
+description: Bachelor´s thesis in engineering physics.
+img: assets/img/bsc_thesis.png
 category: Theses
 pdf: "bsc_thesis_gibbs_function.pdf"
 importance: 1
@@ -42,3 +42,5 @@ approximation ratio. However, there are cases where the modified algorithm outpe
 the standard version, particularly in terms of success probability.
 
 <p style="text-align:left; font-size:16px; font-style: italic">Keywords: QAOA, Hybrid Quantum Algorithm, Objective Function, Max-Cut, Approximation Ratio, Success Probability, Optimization.</p>
+
+***You can download the thesis from the icon at the top of this page.***
