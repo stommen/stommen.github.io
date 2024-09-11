@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Experimental Physics
-description: Reports as part of the [TIF091/096-course](https://stommen.github.io/courses/tif091/) at Chalmers."
-img: assets/img/Interference_pattern.jpg
+title: Astrophysics
+description: Reports as part of the RRY125-course at Chalmers.
+img: assets/img/mapofthemilkyway.jpeg
 category: Reports
 display_categories:
 horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
+<p>Report as part of the <a href="https://stommen.github.io/courses/rry125/" target="_blank" rel="noopener noreferrer">RRY125-course</a> at Chalmers.<p>
 
 <div class="reports>
 <!-- Display projects without categories -->

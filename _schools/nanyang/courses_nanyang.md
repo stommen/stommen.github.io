@@ -1,18 +1,21 @@
 ---
 layout: page
-title: Theses
-description: My theses, bachelor's and master's (eventually)
-img:
-category: Theses
+title: Courses at NTU
+description: |
+  Courses attended during my exchange semester in Singapore.
+img: assets/img/
+importance: 1
+category:
+nav: true
+nav_order: 3
 display_categories:
 horizontal: false
 ---
 <!-- markdownlint-disable MD033 -->
-
-<div class="theses>
+<div class="education">
 <!-- Display projects without categories -->
 
-{% assign sorted_theses= site.theses %}
+{% assign sorted_courses = site.nanyang %}
 
   <!-- Generate cards for each project -->
 
@@ -20,14 +23,14 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for x in sorted_theses %}
+    {% for x in sorted_courses %}
       {% include x_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
 {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for x in sorted_theses %}
+    {% for x in sorted_courses %}
       {% include x.liquid %}
     {% endfor %}
   </div>
