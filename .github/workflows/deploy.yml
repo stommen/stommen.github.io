@@ -85,9 +85,6 @@ jobs:
       - name: Copy file from subrepo to main repo 📂
         run: |
           cp _cv/cv_eng.pdf assets/pdf/
-      - name: Verify file copy
-        run: |
-          ls assets/pdf
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
