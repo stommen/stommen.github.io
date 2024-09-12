@@ -133,73 +133,59 @@
       "keywords": [
         {
           "name": "Python",
-          "proficiency": 90,
-          "level": "Advanced"
+          "proficiency": 90
         },
         {
           "name": "Microsoft Office",
-          "proficiency": 90,
-          "level": "Advanced"
+          "proficiency": 90
         },
         {
           "name": "Matlab",
-          "proficiency": 80,
-          "level": "Intermediate/Advanced"
+          "proficiency": 80
         },
         {
           "name": "Git",
-          "proficiency": 70,
-          "level": "Intermediate"
+          "proficiency": 70
         },
         {
           "name": "Github & Github Actions",
-          "proficiency": 70,
-          "level": "Intermediate"
+          "proficiency": 70
         },
         {
           "name": "LaTeX",
-          "proficiency": 70,
-          "level": "Intermediate"
+          "proficiency": 70
         },
         {
           "name": "Linux",
-          "proficiency": 60,
-          "level": "Intermediate"
+          "proficiency": 60
         },
         {
           "name": "Microsoft Azure",
-          "proficiency": 60,
-          "level": "Intermediate"
+          "proficiency": 60
         },
         {
           "name": "LabVIEW",
-          "proficiency": 40,
-          "level": "Basic"
+          "proficiency": 40
         },
         {
           "name": "HTML",
-          "proficiency": 30,
-          "level": "Basic"
+          "proficiency": 30
         },
         {
           "name": "YAML",
-          "proficiency": 20,
-          "level": "Basic"
+          "proficiency": 20
         },
         {
           "name": "ANSYS",
-          "proficiency": 20,
-          "level": "Basic"
+          "proficiency": 20
         },
         {
           "name": "Visual Basic",
-          "proficiency": 20,
-          "level": "Basic"
+          "proficiency": 20
         },
         {
           "name": "Web development",
-          "proficiency": 10,
-          "level": "Beginner"
+          "proficiency": 10
         }
       ]
     },
@@ -209,33 +195,27 @@
       "keywords": [
         {
           "name": "Analytical and methodical",
-          "proficiency": 100,
-          "level": "Advanced"
+          "proficiency": 100
         },
         {
           "name": "Calm and planning",
-          "proficiency": 100,
-          "level": "Advanced"
+          "proficiency": 100
         },
         {
           "name": "Team player",
-          "proficiency": 100,
-          "level": "Intermediate/Advanced"
+          "proficiency": 100
         },
         {
           "name": "Caring",
-          "proficiency": 100,
-          "level": "Intermediate/Advanced"
+          "proficiency": 100
         },
         {
           "name": "Always positive and cheerful",
-          "proficiency": 100,
-          "level": "Intermediate/Advanced"
+          "proficiency": 100
         },
         {
           "name": "Very driven, goal-oriented (stubborn) and competitive",
-          "proficiency": 100,
-          "level": "Intermediate/Advanced"
+          "proficiency": 100
         }
       ]
     }
