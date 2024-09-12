@@ -207,11 +207,36 @@
       "name": "Personal traits",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Calm, humble and planning",
-        "Team player",
-        "Caring",
-        "Always positive and cheerful",
-        "Very driven, goal-oriented (stubborn) and competitive"
+        {
+          "name": "Analytical and methodical",
+          "proficiency": 100,
+          "level": "Advanced"
+        },
+        {
+          "name": "Calm and planning",
+          "proficiency": 100,
+          "level": "Advanced"
+        },
+        {
+          "name": "Team player",
+          "proficiency": 100,
+          "level": "Intermediate/Advanced"
+        },
+        {
+          "name": "Caring",
+          "proficiency": 100,
+          "level": "Intermediate/Advanced"
+        },
+        {
+          "name": "Always positive and cheerful",
+          "proficiency": 100,
+          "level": "Intermediate/Advanced"
+        },
+        {
+          "name": "Very driven, goal-oriented (stubborn) and competitive",
+          "proficiency": 100,
+          "level": "Intermediate/Advanced"
+        }
       ]
     }
   ],
