@@ -21,7 +21,7 @@
       }
     ]
   },
-  "main competences": [
+  "competences": [
     {
       "name": "Practical experience of engineering work (mainly within programming) through internships"
     },
@@ -126,7 +126,7 @@
       "icon": "fa-solid fa-tag"
     }
   ],
-  "skills and qualifications": [
+  "skills": [
     {
       "name": "Programming and software",
       "icon": "fa-solid fa-hashtag",
