@@ -22,7 +22,20 @@
             <tr>
               <td></td>
               <td class="list-group-name">
-                <b>{{ item }}</b>
+                <b>{{ item.name }}</b>
+              </td>
+              <td>
+                <!-- Progress bar -->
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: {{ item.proficiency }}%;"
+                    aria-valuenow="{{ item.proficiency }}"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
               </td>
             </tr>
           {% endfor %}
