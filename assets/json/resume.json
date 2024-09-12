@@ -133,55 +133,73 @@
       "keywords": [
         {
           "name": "Python",
+          "proficiency": 90,
           "level": "Advanced"
         },
         {
           "name": "Microsoft Office",
+          "proficiency": 90,
           "level": "Advanced"
         },
         {
           "name": "Matlab",
+          "proficiency": 80,
           "level": "Intermediate/Advanced"
         },
         {
           "name": "Git",
+          "proficiency": 70,
           "level": "Intermediate"
         },
         {
           "name": "Github & Github Actions",
-          "level": "Intermediate"
-        },
-        {
-          "name": "Linux",
-          "level": "Intermediate"
-        },
-        {
-          "name": "Microsoft Azure",
+          "proficiency": 70,
           "level": "Intermediate"
         },
         {
           "name": "LaTeX",
+          "proficiency": 70,
           "level": "Intermediate"
         },
         {
+          "name": "Linux",
+          "proficiency": 60,
+          "level": "Intermediate"
+        },
+        {
+          "name": "Microsoft Azure",
+          "proficiency": 60,
+          "level": "Intermediate"
+        },
+        {
+          "name": "LabVIEW",
+          "proficiency": 40,
+          "level": "Basic"
+        },
+        {
           "name": "HTML",
+          "proficiency": 30,
           "level": "Basic"
         },
         {
           "name": "YAML",
-          "level": "Basic"
-        },
-        {
-          "name": "LabVIEW",
+          "proficiency": 20,
           "level": "Basic"
         },
         {
           "name": "ANSYS",
+          "proficiency": 20,
           "level": "Basic"
         },
         {
           "name": "Visual Basic",
+          "proficiency": 20,
           "level": "Basic"
+        },
+        {
+          "name": "Web development",
+          "proficiency": 10,
+          "level": "Beginner"
         }
       ]
     },
