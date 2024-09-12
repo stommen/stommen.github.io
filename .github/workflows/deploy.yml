@@ -88,9 +88,6 @@ jobs:
       - name: Verify file copy
         run: |
           ls assets/pdf
-      - name: Verify file copy
-        run: |
-          ls _cv
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
