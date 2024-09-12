@@ -3,7 +3,7 @@ title: "Quantum Mechanics"
 description: |
   Studies of the atomic spectra of different elements.
 img: assets/img/quantum_exp.jpeg
-category: 
+category:
 importance: 1
 layout: page_w_pdf
 pdf: "quantum_report.pdf"

@@ -8,6 +8,7 @@ category:
 display_categories: [Business Economics, Economics, Statistics]
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 
 <div class="education">

@@ -12,6 +12,7 @@ nav_order: 3
 display_categories:
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <div class="education">
 <!-- Display projects without categories -->

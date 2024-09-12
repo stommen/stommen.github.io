@@ -11,6 +11,7 @@ display_categories:
 horizontal: false
 school: Chalmers
 ---
+
 <!-- markdownlint-disable MD033 -->
 
 <div class="education">

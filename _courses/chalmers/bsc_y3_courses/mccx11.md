@@ -4,7 +4,7 @@ description: |
   <p>15 ECTS<br>
   <i>Examiner: Per Lundgren</i></p>
 img:
-category: 
+category:
 importance: 1
 layout: page
 folder: "bsc_y3_courses"

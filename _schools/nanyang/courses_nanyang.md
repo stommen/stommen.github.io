@@ -3,12 +3,13 @@ layout: page
 title: Courses at NTU
 description: |
   Courses attended during my exchange semester in Singapore.
-img: assets/img/
+img:
 importance: 1
 category: Nanyang
 display_categories:
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <div class="education">
 <!-- Display projects without categories -->

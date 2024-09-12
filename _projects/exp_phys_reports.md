@@ -8,7 +8,9 @@ category: Reports
 display_categories:
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
+
 Reports as part of the [TIF091/096-course](https://stommen.github.io/courses/tif091) at Chalmers.
 
 <!-- Display projects without categories -->

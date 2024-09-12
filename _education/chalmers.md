@@ -11,6 +11,7 @@ nav_order: 3
 display_categories: [Bachelor, Master]
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <div class="school">
   {% if site.enable_categories and page.display_categories %}

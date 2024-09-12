@@ -10,6 +10,7 @@ nav_order: 3
 display_categories:
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <!-- pages/projects.md -->
 <div class="career">

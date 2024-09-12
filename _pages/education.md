@@ -13,6 +13,7 @@ nav_order: 4
 display_categories:
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <!-- pages/projects.md -->
 

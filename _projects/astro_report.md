@@ -8,6 +8,7 @@ category: Reports
 display_categories:
 horizontal: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <p>Report as part of the <a href="https://stommen.github.io/courses/rry125/" target="_blank" rel="noopener noreferrer">RRY125-course</a> at Chalmers.<p>
 
