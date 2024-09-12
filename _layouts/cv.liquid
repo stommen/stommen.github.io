@@ -83,8 +83,8 @@ layout: default
               {% case data[0] %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
-                {% when 'main competences' %}
-                  {% include resume/interests.liquid %}
+                {% when 'competences' %}
+                  {% include resume/competences.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
                 {% when 'work' %}
@@ -95,8 +95,8 @@ layout: default
                   {% include resume/projects.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
-                {% when 'skills and qualifications' %}
-                  {% include resume/interests.liquid %}
+                {% when 'skills' %}
+                  {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
                 {% when 'languages' %}
