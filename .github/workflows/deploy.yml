@@ -82,9 +82,6 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Copy file from subrepo to main repo 📂
-        run: |
-          cp _cv/cv_eng.pdf assets/pdf/
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
