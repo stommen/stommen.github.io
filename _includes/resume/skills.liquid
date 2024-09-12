@@ -1,43 +1,38 @@
 <div class="list-groups">
-  {% for content in data[1] %}
-    <div class="list-group col-md-6" title="{{ content.level }}">
+  {% assign categories = 'advanced,intermediate,basic' | split: ',' %}
+  {% for category in categories %}
+    <div class="list-group col-md-6" title="{{ category }}">
       <table class="table-cv list-group-table">
         <tbody>
           <tr>
-            {% if content.icon %}
-              <td class="list-group-category-icon">
-                <i class="{{ content.icon }}"></i>
-              </td>
-            {% else %}
-              <td class="list-group-category-icon"></td>
-            {% endif %}
-            <!-- Calculate colspan number for category title -->
-            {% assign i = 1 %}
-            {% for item in content.items %}
-              {% assign i = i | plus: 1 %}
-            {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
+            <td class="list-group-category-icon">
+              <i class="fa-solid fa-hashtag"></i>
+            </td>
+            <td colspan="3" class="list-group-category">{{ category | capitalize }}</td>
           </tr>
-          {% for item in content.keywords %}
-            <tr>
-              <td></td>
-              <td class="list-group-name">
-                <b>{{ item.name }}</b>
-              </td>
-              <td>
-                <!-- Progress bar -->
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: {{ item.proficiency }}%;"
-                    aria-valuenow="{{ item.proficiency }}"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </td>
-            </tr>
+          {% for content in site.data.skills %}
+            {% for item in content.keywords %}
+              {% if item.category == category %}
+                <tr>
+                  <td></td>
+                  <td class="list-group-name">
+                    <b>{{ item.name }}</b>
+                  </td>
+                  <td>
+                    <div class="progress">
+                      <div
+                        class="progress-bar {{ item.category }}"
+                        role="progressbar"
+                        style="width: {{ item.proficiency }}%;"
+                        aria-valuenow="{{ item.proficiency }}"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </td>
+                </tr>
+              {% endif %}
+            {% endfor %}
           {% endfor %}
         </tbody>
       </table>

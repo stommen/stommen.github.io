@@ -962,6 +962,16 @@ html.transition *:after {
   transition: width 0.6s ease;
 }
 
+.progress-bar.advanced {
+  background-color: #4caf50; /* Green color */
+}
+.progress-bar.intermediate {
+  background-color: #ff9800; /* Orange color */
+}
+.progress-bar.basic {
+  background-color: #f44336; /* Red color */
+}
+
 /* Copy button */
 .code-display-wrapper {
   position: relative;
