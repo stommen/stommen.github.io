@@ -131,18 +131,58 @@
       "name": "Programming and software",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Python",
-        "Matlab",
-        "Microsoft Office",
-        "Github",
-        "Linux",
-        "Microsoft Azure",
-        "LaTeX",
-        "HTML",
-        "YAML",
-        "LabVIEW",
-        "ANSYS",
-        "Visual Basic"
+        {
+          "name": "Python",
+          "level": "Advanced"
+        },
+        {
+          "name": "Microsoft Office",
+          "level": "Advanced"
+        },
+        {
+          "name": "Matlab",
+          "level": "Intermediate/Advanced"
+        },
+        {
+          "name": "Git",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Github & Github Actions",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Linux",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Microsoft Azure",
+          "level": "Intermediate"
+        },
+        {
+          "name": "LaTeX",
+          "level": "Intermediate"
+        },
+        {
+          "name": "HTML",
+          "level": "Basic"
+        },
+        {
+          "name": "YAML",
+          "level": "Basic"
+        },
+        {
+          "name": "LabVIEW",
+          "level": "Basic"
+        },
+        {
+          "name": "ANSYS",
+          "level": "Basic"
+        },
+        {
+          "name": "Visual Basic",
+          "level": "Basic"
+        }
       ]
     },
     {

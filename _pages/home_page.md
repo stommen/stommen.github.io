@@ -11,7 +11,7 @@ profile:
   align: right
   image: cv_bild.png
   image_circular: false # crops the image to make it circular
-  more_info:#>
+  more_info:
     #<p>Kemivägen 7A</p>
     #<p>Gothenburg, Sweden</p>
     #<p>070-661 73 53<p>
