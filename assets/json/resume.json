@@ -202,42 +202,6 @@
           "category": "basic"
         }
       ]
-    },
-    {
-      "name": "Personal traits",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        {
-          "name": "Analytical and methodical",
-          "proficiency": 100,
-          "category": "advanced"
-        },
-        {
-          "name": "Calm and planning",
-          "proficiency": 100,
-          "category": "advanced"
-        },
-        {
-          "name": "Team player",
-          "proficiency": 100,
-          "category": "advanced"
-        },
-        {
-          "name": "Caring",
-          "proficiency": 100,
-          "category": "advanced"
-        },
-        {
-          "name": "Always positive and cheerful",
-          "proficiency": 100,
-          "category": "advanced"
-        },
-        {
-          "name": "Very driven, goal-oriented (stubborn) and competitive",
-          "proficiency": 100,
-          "category": "advanced"
-        }
-      ]
     }
   ],
   "languages": [
