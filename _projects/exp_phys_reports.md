@@ -5,7 +5,7 @@ description: |
   Reports as part of the TIF091/096- and TIF295-courses at Chalmers.
 img: assets/img/Interference_pattern.jpg
 category: Reports
-display_categories: [TIF091/096, TIF295]
+display_categories: [TIF091/096 (BSc), TIF295 (MSc)]
 horizontal: false
 ---
 
@@ -21,7 +21,7 @@ Reports as part of the [TIF091/096-](https://stommen.github.io/courses/tif091) a
       <h2 class="category">{{ category }}</h2>
     </a>
     {% assign categorized_reports = site.reports | where: "category", category %}
-    {% assign sorted_reports = site.reports | where: "folder", "exp_phys" %}
+    {% assign sorted_reports = categorized_reports | where: "folder", "exp_phys" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
     <div class="container">

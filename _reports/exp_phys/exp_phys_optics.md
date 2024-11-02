@@ -4,7 +4,7 @@ description: |
   Determination of the refractive index of air and wavelength of a laser
   using a Michelson interferometer.
 img: assets/img/labview_optics.png
-category: TIF091/096
+category: TIF091/096 (BSc)
 importance: 1
 layout: page_w_pdf
 pdf: "optics_report.pdf"

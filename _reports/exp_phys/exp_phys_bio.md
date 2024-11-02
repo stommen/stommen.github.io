@@ -4,7 +4,7 @@ description: |
   Creation and Characterization of Lipid Nanoparticles Using Nanoparticle Tracking
   Analysis and Flourescent Microscopy.
 img: assets/img/bio.pdf
-category: TIF295
+category: TIF295 (MSc)
 importance: 1
 layout: page_w_pdf
 pdf: "bio_report.pdf"
