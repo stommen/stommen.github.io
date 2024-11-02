@@ -9,7 +9,7 @@ category:
 importance: 1
 layout: page_w_pdf
 pdf: "Project_2_Data.pdf"
-folder: "ML_stat"
+folder: "MLstat"
 ---
 
 <!-- markdownlint-disable MD033 -->

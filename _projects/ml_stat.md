@@ -3,7 +3,7 @@ layout: page
 title: Machine Learning and Statistics
 description: |
   Reports as part of the TIF285 course at Chalmers.
-img: assets/img/Interference_pattern.jpg
+img: assets/img/ML.pdf
 category: Reports
 display_categories:
 horizontal: false
