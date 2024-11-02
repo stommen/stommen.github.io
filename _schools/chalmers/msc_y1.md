@@ -32,7 +32,7 @@ school: Chalmers
   </div>
 {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for course in sorted_courses %}
+    {% for x in sorted_courses %}
       {% include x.liquid %}
     {% endfor %}
   </div>

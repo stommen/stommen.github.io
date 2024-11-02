@@ -26,7 +26,7 @@ Hard-working, curious and very competitive MSc student in physics at Chalmers Un
 Things that especially catches my eyes and ears include:
 
 - Quantum physics :cat:
-- (Applied) Quantum computing :atom_symbol:
+- Quantum computing :atom_symbol:
 - Plasma physics :boom:
 - Computational physics :computer:
 - Astrophysics :star:
