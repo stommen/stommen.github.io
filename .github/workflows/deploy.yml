@@ -89,7 +89,7 @@ jobs:
           cp ntu_exchange/exchange_report.pdf assets/pdf/
           cp ntu_exchange/title_fig.pdf assets/img/
           cp ntu_exchange/ntu_courses/PH3406/density_matrix_meas.pdf assets/img/
-          cp ntu_exchange/ntu_courses/PH3406/ph3406_project.pdf assets/pdf/
+          cp ntu_exchange/ntu_courses/PH3406/ph3406_project_OS.pdf assets/pdf/
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
