@@ -12,7 +12,7 @@ horizontal: false
 <!-- markdownlint-disable MD033 -->
 <p>Report as part of the <a href="https://stommen.github.io/courses/ph3406/" target="_blank" rel="noopener noreferrer">PH3406-course</a> at NTU.<p>
 
-<p style="text-align:center; font-size:35px">Quantum State Tomography of an
+<p style="text-align:center; font-size:30px">Quantum State Tomography of an
 Entangled Two-qubit System</p>
 
 <p style="text-align:center; font-size:20px">Project Report | PH3406</p>
