@@ -3,7 +3,7 @@ layout: page
 title: Nanyang Technological University
 description: |
   Courses attended during my exchange semester in Singapore. You can also read my official exchange report
-  requested by Chalmers for future exchange students or check out my own, less official, travel report.
+  requested by Chalmers for future exchange students.
 img: assets/img/nanyang.png
 importance: 1
 category:

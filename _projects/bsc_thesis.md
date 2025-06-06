@@ -25,14 +25,14 @@ layout: page_w_pdf
 <p style="text-align:left; font-size:16px">This study has compared a modified version of the hybrid quantum algorithm, Quantum Approximate Optimization Algorithm (QAOA), with the standard version. The standard
 version of QAOA uses the expectation value of the energy, \( \langle \hat{H}_C \rangle \), as the objective function
 while the modified version uses a Gibbs function, \(- \ln \left\langle e^{-\eta \hat{H}_C} \right\rangle\).
-The aim was partly to investigate and reproduce the results of a previous study by <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023074" target="_blank" rel="noopener noreferrer">Li et al.</a> and partly to investigate factors not explored in the previous paper: the effect
+The aim was partly to investigate and reproduce the results of a previous study by Li et al. <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023074" target="_blank" rel="noopener noreferrer">[1]</a> and partly to investigate factors not explored in the previous paper: the effect
 of different graph isomorphisms, graph sizes and depth of the quantum circuit.
 The comparison was made based on the results obtained from applying the algorithm
 to different cases of the Max-Cut problem. Two different performance measures were used,
 success probability and approximation ratio. The different factors investigated were the
 choice of final optimized parameters, the choice of the Gibbs parameter η, circuit depth,
 graph size and graph isomorphism. All results were obtained by simulating the algorithms
-in Python, using the code package <a href="https://arxiv.org/abs/1811.04968" target="_blank" rel="noopener noreferrer">Pennylane</a>. Given the results for the relatively small graphs considered, it is not possible to determine
+in Python, using the code package Pennylane <a href="https://arxiv.org/abs/1811.04968" target="_blank" rel="noopener noreferrer">[2]</a>. Given the results for the relatively small graphs considered, it is not possible to determine
 whether the modified algorithm is generally better than the original one. It is
 even possible that the modified version is worse than the original, especially in terms of
 approximation ratio. However, there are cases where the modified algorithm outperforms
