@@ -68,7 +68,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
           token: ${{ secrets.ACTIONS_PERSONAL_ACCESS_TOKEN }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
