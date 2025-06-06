@@ -27,4 +27,5 @@ For an exchange at NTU (or Singapore in general), I hope that my report can help
 If you have any questions about the exchange, whether it's about the preparations, the school and coursework, or traveling in Asia, I'm happy to help! :) You can find my contact information on the title page.
 
 Best Regards,
+
 Oscar
