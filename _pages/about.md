@@ -12,7 +12,7 @@ social: true # includes social icons at the bottom of the page
 
 <!-- markdownlint-disable MD033 -->
 
-So, you want to know more about me - then you are in the right place!
+So, you want to know more about me - then you're in the right place!
 
 I'm Oscar, as you already know, a 23 year-old born and raised in Trollhättan, Sweden. In most countries, Trollhättan would probably be referred to as what we in Sweden call a "håla", or a smaller town in more formal English. Here, I grew up with my parents and younger brother, and I could probably write a whole book about them and what they mean to me, however that isn't really the goal here (maybe I should add that section later on). More importantly, I've always been interested in science. Ever since I first peeked at the black night sky, fascinated by what's out there, space and astronomy have always been one of my greatest passions. Although, I've always been into every science flavour - from maths and physics to ecology, genetics and chemical reactions.
 

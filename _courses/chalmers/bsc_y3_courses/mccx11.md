@@ -2,6 +2,7 @@
 title: "Bachelor’s Thesis in Microtechnology and Nanoscience"
 description: |
   <p>15 ECTS<br>
+  <strong>Grade: 5</strong><br>
   <i>Examiner: Per Lundgren</i></p>
 img:
 category:
@@ -39,7 +40,5 @@ In the bachelor thesis project, the student will integrate, extend and develop k
 - Assess if societal and ethical issues need to be considered for the chosen problem and, where relevant, analyze these aspects in the essay/report.
 
 - Reflect on the need for further knowledge and provide suggestions for future projects in the subject.
-
-**Grade: 5.**
 
 [Syllabus from Chalmers](https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/MCCX11/?acYear=2022%2F2023).
