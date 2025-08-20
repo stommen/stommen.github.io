@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: |
-  Here I have collected some of my works and reports. Note that some are written in swedish.
+  Here I have collected some of my works and reports. Note that some are written in Swedish.
 nav: true
 nav_order: 5
 display_categories: [Reports, Theses]

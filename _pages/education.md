@@ -3,11 +3,11 @@ layout: page
 title: Education
 permalink: /education/
 description: |
-  Courses taken during my university time. I hold a bachelor's degree 
-  in engineering physics from Chalmers and am now pursuing a Master's in physics. I have also completed
+  Courses taken during my university time. I hold a Bachelor's degree 
+  in Engineering Physics from Chalmers and I'm now pursuing a Master's in Physics. I have also completed
   one of two years on my way to a Bachelor of Science in Business and Economics from
-  Gothenburg University. During spring 2025, I attended an exchange semester at Nanyang
-  Technological University as part of my Physics MSc.
+  University of Gothenburg. During spring 2025, I attended an exchange semester at Nanyang
+  Technological University as part of my Physics M.Sc.
 nav: true
 nav_order: 4
 display_categories:

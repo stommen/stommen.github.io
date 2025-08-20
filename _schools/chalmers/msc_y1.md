@@ -2,7 +2,7 @@
 layout: page
 title: Master year 1
 description: |
-  Courses during year 1 of my master's degree. Note that I during spring 2025 took part in an exchange semester at Nanyang Technological University (NTU) in Singapore as part of that academic year. This page contains the courses I attended at Chalmers during fall 2024.
+  Courses during year 1 of my Master's degree. Note that I during spring 2025 took part in an exchange semester at Nanyang Technological University (NTU) in Singapore as part of that academic year. This page contains the courses I attended at Chalmers during fall 2024.
 img:
 category: Master
 nav: true

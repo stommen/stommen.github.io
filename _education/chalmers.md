@@ -2,7 +2,7 @@
 layout: page
 title: Chalmers University of Technology
 description: |
-  Master of Science in Engineering Physics. During spring 2025 I attended an exchange semester at Nanyang Technological University in Singapore as part of my MSc in Physics.
+  Master of Science in Engineering Physics. During spring 2025 I attended an exchange semester at Nanyang Technological University in Singapore as part of my M.Sc in Physics.
 img: assets/img/chalmers.png
 importance: 1
 category:

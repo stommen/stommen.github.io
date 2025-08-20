@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bachelor year 3
-description: Courses during year 3 of my bachelor's degree.
+description: Courses during year 3 of my Bachelor's degree.
 img: assets/img/bsc_y3.jpeg
 category: Bachelor
 nav: true
