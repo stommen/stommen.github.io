@@ -1,4 +1,4 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------
 %	The MIT License (MIT)
 %
 %	Copyright (c) 2021 Jitin Nair
@@ -18,19 +18,18 @@
 %	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 %	THE SOFTWARE.
 %	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 %	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 
 % article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,11pt]{article}
 
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 %	FONT
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 
 % % fontspec allows you to use TTF/OTF fonts directly
 % \usepackage{fontspec}
@@ -44,9 +43,9 @@
 % ]
 % {Fontin.otf}
 
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 %	PACKAGES
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 \usepackage{url}
 \usepackage{parskip} 
 %\usepackage[english]{babel}
@@ -56,7 +55,7 @@
 \RequirePackage{color}
 \RequirePackage{graphicx}
 \usepackage[dvipsnames]{xcolor}
-\usepackage[left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.9cm,nofoot]{geometry}
+\usepackage[left=1.5cm,top=1.cm,right=1.5cm,bottom=1.5cm,nofoot]{geometry}
 
 %tabularx environment
 \usepackage{tabularx}
@@ -92,7 +91,6 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
-%%%%%
 %for publications
 \usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
 
@@ -110,87 +108,82 @@
   \clearfield{labelnumber}
 }
 %\setlength\bibitemsep{1em}
-%%%%%
 
 %for social icons
 \usepackage{fontawesome5}
 \usepackage{fancyhdr}
 
 % remove word-splits
-\usepackage[none]{hyphenat}
+%\usepackage[none]{hyphenat}
 
-\newcommand\rating[2]{%
-  \pgfmathsetmacro\pgfxa{#1 + 1}%
-  \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=0.15em, anchor=outer point 3]%
-  \begin{tikzpicture}[baseline]
-    \foreach \i in {1, ..., #2} {
-      \pgfmathparse{\i<=#1 ? "black" : "white"}
-      \edef\starcolor{\pgfmathresult}
-      \draw (\i*1.3em, 0) node[name=star\i, scorestars, fill=\starcolor]  {};
-    }
-    \pgfmathparse{#1>int(#1) ? int(#1+1) : 0}
-    \let\partstar=\pgfmathresult
-    \ifnum\partstar>0
-      \pgfmathsetmacro\starpart{#1-(int(#1))}
-      \path [clip] ($(star\partstar.outer point 3)!(star\partstar.outer point 2)!(star\partstar.outer point 4)$) rectangle 
-      ($(star\partstar.outer point 2 |- star\partstar.outer point 1)!\starpart!(star\partstar.outer point 1 -| star\partstar.outer point 5)$);
-      \fill (\partstar*1em, 0) node[scorestars, fill=yellow]  {};
-    \fi
-  \end{tikzpicture}%
+% \newcommand\rating[2]{%
+%   \pgfmathsetmacro\pgfxa{#1 + 1}%
+%   \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=0.15em, anchor=outer point 3]%
+%   \begin{tikzpicture}[baseline]
+%     \foreach \i in {1, ..., #2} {
+%       \pgfmathparse{\i<=#1 ? "black" : "white"}
+%       \edef\starcolor{\pgfmathresult}
+%       \draw (\i*1.3em, 0) node[name=star\i, scorestars, fill=\starcolor]  {};
+%     }
+%     \pgfmathparse{#1>int(#1) ? int(#1+1) : 0}
+%     \let\partstar=\pgfmathresult
+%     \ifnum\partstar>0
+%       \pgfmathsetmacro\starpart{#1-(int(#1))}
+%       \path [clip] ($(star\partstar.outer point 3)!(star\partstar.outer point 2)!(star\partstar.outer point 4)$) rectangle 
+%       ($(star\partstar.outer point 2 |- star\partstar.outer point 1)!\starpart!(star\partstar.outer point 1 -| star\partstar.outer point 5)$);
+%       \fill (\partstar*1em, 0) node[scorestars, fill=yellow]  {};
+%     \fi
+%   \end{tikzpicture}%
+% }
+
+\newcommand{\skill}[3]{%
+  \noindent
+  \textsc{#1}
+  \begin{minipage}[t]{0.15\linewidth}
+    \begin{tikzpicture}[baseline={(0,0)}]
+      \fill[gray!40, rounded corners=3pt] (0,0) rectangle (2,0.2);
+      \fill[black!90, rounded corners=3pt] (0,0) rectangle (2*#2/#3,0.2);
+    \end{tikzpicture}
+  \end{minipage}%
 }
 
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 %	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 \begin{document}
 % non-numbered pages
 \pagestyle{fancy}
 \fancyhf{} % sets both header and footer to nothing
 \renewcommand{\headrulewidth}{0pt}
-%----------------------------------------------------------------------------------------
+\setlength{\footskip}{4.08003pt}
+
+%---------------------------------------------------------------------
 %	TITLE
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
+{\huge \textbf{Curriculum Vitae} \hfill \textit{Oscar Stommendal}} \\[-1cm]
 
-% \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
-% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
-% \end{tabularx}
+\hrulefill
 
-% {\Huge \textbf{Curriculum Vitae \\[0.3cm]}} 
-% {\Large \textit{Oscar Stommendal}} \\[-0.7cm]
-{\Huge \textbf{Curriculum Vitae} \hfill \textit{Oscar Stommendal}} \\[-0.7cm]
+\vspace{-0.1cm}
+{\small{}\textsc{BSc Engineering Physics $\vert$ MSc Physics $\vert$ BSc Business and Economics}}
+\vspace{-0.1cm}
 
-\hrulefill%{11.9cm}{0.4pt} \\[-0.6cm]
-
-\textsc{BSc Engineering Physics $\vert$ MSc Physics $\vert$ BSc Business and Economics \\[0.2cm] Chalmers $\vert$ NTU Singapore $\vert$ University of Gothenburg}\\[-0.9cm]
-
-\hrulefill%{11.9cm}{0.4pt}
-
-\begin{tabular}[c]{l|c|c|c|c}
-    \href{mailto:oscar.stommendal01@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ Email \hspace{0.05cm}}& \hspace{0.1cm}
-    \href{https://linkedin.com/in/oscar-stommendal} {\raisebox{-0.05\height}\faLinkedin\ LinkedIn \hspace{0.05cm}} & \hspace{0.25cm}%\href{tel:+46706617353}{\raisebox{-0.05\height}\faMobile \ iPhone} &
-    \href{https://github.com/stommen} {\raisebox{-0.05\height}\faGithub \ Github \hspace{0.05cm}} & \hspace{0.15cm}
-    \href{https://stommen.github.io}{\raisebox{-0.05\height}\faGlobe \ Personal Webpage} \hspace{0.05cm} & \hspace{-0.15cm}
-    \hspace{0.15cm} \href{https://www.google.com/maps/place/Göteborg,+Sverige/@57.7005638,11.5642129,10z/data=!3m1!4b1!4m6!3m5!1s0x464f8e67966c073f:0x4019078290e7c40!8m2!3d57.70887!4d11.97456!16zL20vMDM0M18?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D}{\raisebox{-0.05\height}\faMapMarker \ Gothenburg}
+\begin{tabular}[l]{l|l|l|l|l|l}
+    \small{}\hspace{-0.3cm} \href{mailto:oscar.stommendal01@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ Email}& \small{}\href{tel:+46706617353}{\raisebox{-0.05\height}\faMobile \ iPhone} & \small{}\href{https://linkedin.com/in/oscar-stommendal} {\raisebox{-0.05\height}\faLinkedin\ LinkedIn} & \small{}\href{https://github.com/stommen} {\raisebox{-0.05\height}\faGithub \ Github} & \small{}\href{https://stommen.github.io}{\raisebox{-0.05\height}\faGlobe \ Personal Website} & \small{}\href{https://www.google.com/maps/place/Göteborg,+Sverige/@57.7005638,11.5642129,10z/data=!3m1!4b1!4m6!3m5!1s0x464f8e67966c073f:0x4019078290e7c40!8m2!3d57.70887!4d11.97456!16zL20vMDM0M18?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D}{\raisebox{-0.05\height}\faMapMarker \ Gothenburg}
 \end{tabular}
 \hfill
 % \begin{tikzpicture}[remember picture,overlay]
 % \clip ($(current page text area.north east)!0.10!(current page text area.south east)!0.12!(current page text area.north west)$)
 %   circle (2.2cm) node {\includegraphics[width=4.5cm]{photos/cv_bild.pdf}};
 % \end{tikzpicture}
-\hspace*{0.1cm}\\[-0.3cm]
-%\begin{tabularx}{\linewidth}{@{} C @{}}
-%\Huge{Oscar Stommendal} \\[7.5pt]
-%\href{https://linkedin.com/in/oscarstommendal}{\raisebox{-0.05\height}\faLinkedin\ oscarstommendal} \ $|$ \ 
-%\href{mailto:oscar.stommendal01@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ oscar.stommendal01@gmail.com} \ $|$ \ 
-%href{tel:+46706617353}{\raisebox{-0.05\height}\faMobile \ +46 70-661-7353} \\
-%\end{tabularx}
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
-%----------------------------------------------------------------------------------------
+\hspace*{0.1cm}\\[-0.6cm]
+
+%---------------------------------------------------------------------
+% Introduction
+%---------------------------------------------------------------------
 %Interests/ Keywords/ Summary
-\section{Goal with Application}
+%\section{Goal with Application}
+%By being a member of the NOVA talent network, I hope to gain valuable tips, insights and connections to help me kick-start my career. I hope to connect with like-minded peers and learn from experienced professionals who can guide me in my career path. 
 %Through the CERN Summer Student Programme, I aim to deepen my understanding of science and technology while gaining experience in a world-class research environment. This opportunity will help me advance toward a future career at the forefront of technological advancements by collaborating with leading researcher and connecting with like-minded peers from around the world.
 %Through a summer internship at Novatron, I hope to kick-start my career in the fusion- and renewable energy sector. I am eager to apply my knowledge in physics and engineering to real-world problems, and to learn from experienced professionals in the field. I am confident that my analytical skills, problem-solving abilities and positive attitude will make me a valuable addition to the team.
 %At Ericsson, I hope to gain valuable experience and develop my engineering skills. I am eager to apply my knowledge in physics and engineering to real-world problems, and to learn from experienced professionals in the field. I am confident that my analytical skills, problem-solving abilities and positive attitude will make me a valuable addition to the team.
@@ -209,137 +202,148 @@
 %Working with Bosonic Quantum Computation at Chalmers, I hope to apply my theoretical knowledge in quantum mechanics and computing to cutting-edge research. I am eager to work with experienced professionals and gain valuable experience for a future career at the forefront of technology, hopefully within quantum computing. The latter I also hope to achieve by broaden my network and make new connections within the field of quantum computing. 
 %Working with Superconducting Circuit Platforms in WACQT at Chalmers, I hope to apply my theoretical knowledge in quantum mechanics and computing to cutting-edge research. I am eager to work with experienced professionals and gain valuable experience for a future career at the forefront of technology, hopefully within quantum computing. The latter I also hope to achieve by broaden my network and make new connections within the field of quantum computing. 
 %At Ericsson, I hope to apply my theoretical knowledge in quantum mechanics and computing to real-world problems. I am eager to work with professionals and gain valuable experience for a future career at the forefront of technology, hopefully within quantum computing. The latter I also hope to achieve by broadening my network within the field of quantum computing and developing my engineering skills further.
-\section{Main Competences}
-\begin{itemize}
-    \item[$\bm{\star}$] Practical experience of engineering work through internships
-    %\item[$\bm{\star}$] Coursework in quantum computing, open quantum systems and quantum optimization
-    \item[$\bm{\star}$] (Collaborative) Programming: Python, Matlab, C and Git
-    \item[$\bm{\star}$] Collaborative laboratory work and report writing
-    %\item[$\bm{\star}$] Collaborative laboratory work and programming: Python, Matlab, C and Git
-    \item[$\bm{\star}$] Positive team player with good communication skills and a passion for problem-solving
-    \item[$\bm{\star}$] Analytical, detail-oriented, fast-learned and methodical
+%By an internship at the Feynman Quantum Academy, I hope to deepen my understanding of quantum and quantum -computing while gaining practical experience in a motivating environment, where I can learn from experienced professionals and collaborate with like-minded peers.
+%Motivated by Bain's commitment to result-driven strategies, collaborative culture, and forward-thinking work in sustainability, finance and tech, I seek an associate internship to contribute with my unique mix of physics and economics. I'm eager to solve complex problems in an encouraging, dynamic and challenging environment while learning from world-class teams that challenge and inspire me to grow into a leader who can shape the future.
+%I'm eager to learn from skilled professionals and gain valuable experience for a future career at the forefront of technology, where I aspire to shape the future. I'm especially interested in Bain's work in sustainability, financial services and technology.
+%Motivated by a deep curiosity for fundamental physics, I seek a CERN studentship to contribute to cutting-edge research while gaining practical experience in an encouraging, world-class environment. I'm eager to learn from experts and collaborate on meaningful projects — which will help me pursue a future career at the forefront of technological innovation. I'm particularly interested in CERN's work on cosmology, quantum computing and fusion energy.
+% \section{Motivation and Relevant Skills}
+% \begin{itemize}[itemsep=1pt]
+    % \item[$\bm{\star}$] Practical experience within engineering and collaborative problem-solving through internships
+    %\item[\footnotesize{\textbf{\faCheckCircle}}] Unique combination of complex problem-solving, leadership and strategic thinking skills
+    %\item[$\bm{\star}$] Coursework in nuclear physics, computational physics, plasma physics and quantum computing%, open quantum systems and quantum optimization
+    %\item[$\bm{\star}$] (Collaborative) Programming: Python, Microsoft Office, Matlab, C and Git
+    %\item[$\bm{\star}$] Collaborative laboratory work and report writing
+    %\item[$\bm{\star}$] Hands-on experience in advanced experimental physics and data analysis, with projects in quantum physics, nuclear physics, solid-state physics, optics, and thermodynamics
+    %\item[$\bm{\star}$] Collaborative laboratory work and programming: Python, Matlab, C, C++ and Git
+    %\item[$\bm{\star}$] Positive team player with good communication skills and a passion for problem-solving
+    %\item[$\bm{\star}$] Highly competitive, analytical, curious, detail-oriented, fast learner and methodical
     % \item[$\bm{\star}$] Goal-oriented and competitive -- hence very result-oriented
-\end{itemize}
+    % \item[\footnotesize{\textbf{\faCheckCircle}}] Former exchange student at NTU Singapore who enjoys working with others and meeting new people
+    % \item[\footnotesize{\textbf{\faCheckCircle}}] Ambition to inspire other Chalmers students to go abroad, as I had the adventure of a lifetime
+%\end{itemize}
 
+%---------------------------------------------------------------------
 %	EDUCATION
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2024 - now &MSc in Physics at \textbf{Chalmers University of Technology} \hfill \\
-&Focus on computational physics, astronomy and quantum physics/computing. \\
-&\textit{Including an exchange semester at} \textbf{Nanyang Technological University}, \textit{Singapore.} \\[5pt] 
+2024 - now &MSc Physics at \textbf{Chalmers University of Technology} \hfill GPA: 5.0/5.0\\
+&\textit{Focus on computational physics, astronomy and quantum physics/computing.} \\[5pt]
 
-2023 - now &BSc in Business and Economics at \textbf{University of Gothenburg} \hfill \\[5pt] 
+2025 &Exchange Semester at \textbf{Nanyang Technological University}, Singapore \\
+&\textit{QS World University Ranking 12. Advanced topics in physics, business, and engineering.} \\[5pt]
 
-2020 - 2023 &BSc in Engineering Physics at \textbf{Chalmers University of Technology} \hfill \\[5pt] 
+2023 - now &BSc Business and Economics at \textbf{University of Gothenburg} \hfill \\[5pt] 
 
-2017 - 2020 &Natural Sciences program at \textbf{Nils Ericsonsgymnasiet} (High school) \hfill \\ 
+2020 - 2023 &BSc Engineering Physics at \textbf{Chalmers University of Technology} \hfill GPA: 4.3/5.0\\
+&Bachelor's Thesis: \textit{Gibbs objective function for modification of the optimization process in a hybrid quantum algorithm} \\[18pt]
+
+2017 - 2020 &Natural Sciences program at \textbf{Nils Ericson High School} \hfill GPA: 4.8/5.0
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-
+%---------------------------------------------------------------------
 %Experience
-\section{Work Experience \hfill \footnotesize\textsuperscript{\textcolor{red}{\faInfoCircle}} \textit{References available.}}
+%---------------------------------------------------------------------
+\section{\texorpdfstring
+  {Work Experience \hfill \footnotesize\textsuperscript{\textcolor{black}{\faInfoCircle}} \textit{References available.}}
+  {Work Experience (References available.)}}
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Summer Internship within Emerging Compute @ \textit{Ericsson}}\textsuperscript{\textcolor{black}{\faInfoCircle}} & \hfill Jun 2025 - now \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}
+        \item[--] Investigated the potential of quantum computing to solve problems in telecommunications.
+        \item[--] Contributed to cutting-edge research, R\&D strategy discussions, and worked in cross-functional teams.
+    \end{itemize}
+\end{minipage}}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Research Technician @ \textit{GKN Aerospace}}\textsuperscript{\textcolor{black}{\faInfoCircle}} & \hfill Sep 2023 - May 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}
+        \item[--] Optimized MATLAB and Python tools, cutting processing time and speeding engineering decisions.
+        \item[--] Developed a Python package to automate QA, cutting preparation time and improving consistency.
+        \item[--] Coordinated with engineers and project managers to align tool improvements with operational needs.
+    \end{itemize}
+\end{minipage}}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Summer Internship in the GTC-department @ \textit{GKN Aerospace}}\textsuperscript{\textcolor{black}{\faInfoCircle}} & \hfill Jun 2023 - Aug 2023 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}
+        \item[--] Automated data analysis and developed a tool for stress calculations on CAD models using Python.
+        \item[--] Reduced the time spent on data analysis, improving the department's overall efficiency.
+    \end{itemize}
+\end{minipage}}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+    \textbf{Part-time Consultant @ \textit{Nordisk rörmärkning AB}}\textsuperscript{\textcolor{black}{\faInfoCircle}} & \hfill Apr 2021 - Nov 2023 \\[3.75pt]
+    \multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+        \begin{itemize}
+            \item[--] Designed Excel/VBA tools to automate and simplify customer orders, minimizing efforts and errors.
+        \end{itemize}
+    \end{minipage}
+    }
+\end{tabularx}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Cashier summer work @ \textit{ICA Supermarket Mellerud}}\textsuperscript{\textcolor{black}{\faInfoCircle}} & \hfill Jun 2020 - Aug 2022 \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{
+%   \begin{minipage}[t]{\linewidth}
+%     \begin{itemize}
+%       \item[--] Mentoring new-starters and general people skills development.
+%     \end{itemize}
+%   \end{minipage}
+% }
+% \end{tabularx}
+
+%\begin{tabularx}{\linewidth}{ @{}l r@{} }
 % \textbf{Summer work @ \textit{Norra Älvsborgs Länssjukhus (NÄL)}} & \hfill Jul 2019 - Aug 2019 \\[5pt]
 % \multicolumn{2}{@{}X@{}}{Kitchen responsibility at the X-ray department. I also got to see a lot of the work on the department.} \\[10.75pt]
 %\end{tabularx}
 
-%\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Summer work @ \textit{ICA Supermarket Mellerud}}\textsuperscript{\textcolor{red}{\faInfoCircle}} & \hfill Jun 2020 - Aug 2022 \\[5pt]
-\multicolumn{2}{@{}X@{}}{Cashier responsibilities, unpacking goods and charcuterie. I also got to mentor new starters. This was a valuable experience since I got to meet and handle lots of different people.} \\[10.75pt]
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-    \textbf{Part-time consultant @ \textit{Nordisk rörmärkning AB}}\textsuperscript{\textcolor{red}{\faInfoCircle}} & \hfill Apr 2021 - Nov 2023 \\[3.75pt]
-    \multicolumn{2}{@{}X@{}}{
-    \begin{minipage}[t]{\linewidth}
-        Solved different tasks to make the company's website and customer orders more efficient and automated through Excel. Here I learned to use basic Visual Basic.
-    \end{minipage}
-    }
-    \end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Summer internship in the GTC-department -- \textit{GKN Aerospace}}\textsuperscript{\textcolor{red}{\faInfoCircle}} & \hfill Jun 2023 - Aug 2023 \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-\begin{minipage}[t]{\linewidth}
-    Department of product integration and simulation. The work mostly consisted of programming in Python, where I simplified and automated data analysis and collection for test runs within a certain project, and created a program to execute stress calculations on bodies created in ANSYS (CAD).
-\end{minipage}}
-\end{tabularx}
- 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Research Technician -- \textit{GKN Aerospace}}\textsuperscript{\textcolor{red}{\faInfoCircle}} & \hfill Sep 2023 - May 2024 \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-\begin{minipage}[t]{\linewidth}
-    I got the opportunity to extend my contract at GKN in the Digital simulation and analysis department. I worked partly in Matlab for automatic data analysis during test runs within a certain project, where I improved and streamlined the code, and developed it to analyze more data. I also developed a package in Python that can be used internally at GKN to create and edit so-called Quality Assurance documents, which ensure the quality and use of a software or package.
-\end{minipage}}
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------
 %	SKILLS
-%----------------------------------------------------------------------------------------
-%----------------------------------------------------------------------------------------
-\section{Skills and Qualifications}
-\vspace{0.1cm}
-\begin{minipage}[t]{0.7\textwidth}
-  \raggedright
-  \textbf{\underline{Programming and Software Knowledge}} \\[25pt]
-  \renewcommand{\arraystretch}{2}
-  \setlength{\tabcolsep}{15pt}
-  \vspace*{-\topskip}
-  \centering
-  \begin{tabular}{lll}
-    %\toprule
-    \makecell{\thead{Very good} \\
-    \rating{5}{5}} & \makecell{\thead{Good} \\ \rating{3}{5}} & \makecell{\thead{Basic} \\ \rating{1}{5}} \\ \toprule
-    \makecell{Python \\ Matlab \\ Microsoft Office \\ GitHub \\ Git} & \makecell{C \\ \LaTeX \\ Linux \\ Azure \\\vspace{-0.05cm}} & \makecell{HTML \\ YAML \\ ANSYS \\ Visual Basic \\ LabVIEW} \\[10pt] \bottomrule
-  \end{tabular}
-  \\[25pt]
-  \raggedright
-  \textbf{\underline{Languages}:} \textit{Swedish (native), English (fluent), Spanish (basic)} \\
+%---------------------------------------------------------------------
+\section{Qualifications}
+\begin{minipage}[t]{0.82\textwidth}
+  \textbf{\underline{Programming and Software Knowledge}} \\[10pt]
+  %\raggedright
+  %\renewcommand{\arraystretch}{1.25}
+  %\setlength{\tabcolsep}{15pt}
+  %\vspace*{-\topskip}
+  % \centering
+  % \begin{tabular}{lll}
+  %   %\toprule
+  %   \makecell{\thead{Highly Proficient} \\
+  %   \rating{5}{5}} & \makecell{\thead{Proficient} \\ \rating{3}{5}} & \makecell{\thead{Basic} \\ \rating{1}{5}} \\ \toprule
+  %   \makecell{Python \\ Matlab \\ Microsoft Office \\ GitHub \\ Git} & \makecell{C++ \\  C \\ \LaTeX \\ Linux \\ Azure} & \makecell{HTML \\ YAML \\ ANSYS \\ Visual Basic \\ LabVIEW} \\[10pt] \bottomrule
+  % \end{tabular}
+  \skill{}{5}{5}Highly Proficient: Python, MATLAB, Microsoft Office, Git/GitHub \\[5pt]
+  \skill{}{3}{5}Proficient: C/C++, \LaTeX, Linux, Azure \\[5pt]
+  \skill{}{1}{5}Basic: HTML, YAML, ANSYS, Visual Basic, LabVIEW
 \end{minipage}
-\begin{minipage}[t]{0.3\textwidth}
-  \renewcommand{\arraystretch}{1.5}
-  \setlength{\tabcolsep}{10pt}
-  \vspace*{-\topskip}
-  \hfill
-  \begin{tikzpicture}
-    % Calculate the dimensions of the frame based on the tabular
-    \node (table) at (0,0) {
-        \begin{tabular}{l}
-            \thead{\underline{Personal traits}} \\[10pt]
-            \parbox{4cm}{\vspace{0.2cm} 
-            Calm and Humble \\[5pt] 
-            Planning \\[5pt] 
-            Team player \\[5pt] 
-            Caring \\[5pt] 
-            Always positive \\[5pt] 
-            Driven \\[5pt] 
-            Goal-oriented \\[5pt] 
-            Competitive \vspace{0.2cm}}
-        \end{tabular}
-    };
-    
-    % Add a wavy frame around the table
-    \draw[thick, decorate, decoration={snake, amplitude=0.5mm, segment length=2mm}]
-        ($(table.north west) + (-0.1, 0.1)$) -- ($(table.north east) + (0.1, 0.1)$)
-        -- ($(table.south east) + (0.1, -0.1)$) -- ($(table.south west) + (-0.1, -0.1)$)
-        -- cycle;
-\end{tikzpicture}
+\begin{minipage}[t]{0.18\textwidth}
+  \textbf{\underline{Languages}} \\[10pt]
+  Swedish (Native) \\[5pt]
+  English (C2) \\[5pt]
+  Spanish (A1)
 \end{minipage}
 
-\section{Other Merits}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2024 & \textbf{Recipient of multiple scholarships} from \textit{Stiftelsen AAA}, \textit{Anna Whitlocks Minnesfond} and \textit{Doktor Felix Neuberghs Stiftelse} following my exchange term \hfill \\[20pt]
-2024 & Nominated to an \textbf{exchange term at Nanyang Technological University} \hfill \\[10pt]
-2022 & Qualified for membership in \textbf{MENSA} Sweden \hfill \\[10pt]
-2019 & \textbf{Driver's license}, B \hfill \\
+\section{Extracurricular Activities}
+\begin{tabularx}{\linewidth}{ @{}l X@{}}
+2022 & Qualified for \textbf{Mensa Sweden} \\[5pt]
+2020 & \textbf{Intize mentor} for high-school students in math and physics \\[5pt]
+2009 - 2018 & \textbf{Floorball player}, including 3 seasons as captain/leader of the team
 \end{tabularx}
-\nocite{*}
-\printbibliography[title={Publications}]
-\textit{References/certificates/grades will be provided upon request}.
-\vfill
-\center{\footnotesize Latest updated: \today \\
-CV created in \LaTeX}
+\section{Additional Information}
+\textbf{\underline{Scholarships:}} Anna Whitlocks Minnesfond, Doktor Felix Neuberghs Stiftelse, Stiftelsen AAA. \\[8pt]
+\textbf{\underline{Interests}:} Personal projects in finance and programming, music, food, skiing, sports, fitness, traveling.
 
 \end{document}
