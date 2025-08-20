@@ -2,7 +2,7 @@
 layout: page_w_pdf
 title: Ericsson
 description: Summer Intern 2025 - Emerging Compute
-img: assets/img/ericsson_log.svg.png
+img: assets/img/ericsson_logo.svg.png
 importance: 2
 category:
 pdf: "reference_letter_ericsson_Oscar_Stommendal.pdf"
