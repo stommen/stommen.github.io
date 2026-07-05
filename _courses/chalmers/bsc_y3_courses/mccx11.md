@@ -11,6 +11,8 @@ layout: page
 folder: "bsc_y3_courses"
 ---
 
+[Here](https://stommen.github.io/projects/bsc_thesis/) you can find the thesis page, where you also can download and read the thesis in its full glory.
+
 ## Aim
 
 In the bachelor thesis project, the student will integrate, extend and develop knowledge and skills within a smaller, specialized part of the field of the programme. The bachelor thesis also aims to develop skills in application of engineering problem solving and research methods.
