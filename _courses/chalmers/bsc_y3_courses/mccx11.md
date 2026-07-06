@@ -6,10 +6,13 @@ description: |
   <i>Examiner: Per Lundgren</i></p>
 img:
 category:
-importance: 1
-layout: page
+importance: 2
+layout: page_w_pdf
+pdf: course_syllabi/mccx11.pdf
 folder: "bsc_y3_courses"
 ---
+
+<!-- markdownlint-disable MD059 -->
 
 [Here](https://stommen.github.io/projects/bsc_thesis/) you can find the thesis page, where you also can download and read the thesis in its full glory.
 
@@ -43,4 +46,5 @@ In the bachelor thesis project, the student will integrate, extend and develop k
 
 - Reflect on the need for further knowledge and provide suggestions for future projects in the subject.
 
-[Syllabus from Chalmers](https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/MCCX11/?acYear=2022%2F2023).
+<!-- markdownlint-disable MD033 -->
+<p style="text-align:left; font-size:16px; font-style: italic; font-weight: bold">The full Chalmers syllabus can be downloaded from the icon at the top of this page.</p>

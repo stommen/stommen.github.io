@@ -16,7 +16,7 @@ school: Chalmers
 <div class="education">
 <!-- Display projects without categories -->
 
-{% assign sorted_courses = site.courses | where: "folder", "bsc_y3_courses" %}
+{% assign sorted_courses = site.courses | where: "folder", "bsc_y3_courses" | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 

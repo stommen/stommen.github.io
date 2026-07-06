@@ -6,16 +6,19 @@ description: |
   <i>Examiner: Simone Gasparinetti</i></p>
 img:
 category:
-importance: 1
-layout: page
+importance: 4
+layout: page_w_pdf
+pdf: course_syllabi/mccx04.pdf
 folder: "msc_y2_courses"
 ---
+
+<!-- markdownlint-disable MD059 -->
 
 [Here](https://stommen.github.io/projects/msc_thesis/) you can find the thesis page, where you also can download and read the thesis in its full glory.
 
 ## Aim
 
-The purpose of a thesis is to enable the student to develop deeper knowledge, understanding, capabilities and attitudes in the context of the programme of study. The thesis should be written at the end of the programme and offers the opportunity to delve more deeply into and synthesise knowledge acquired in previous studies. A thesis for a Master of Science in Engineering/Master of Architecture or Master of Science programmes should place emphasis on the technical/scientific/architectural aspects of the subject matter.
+The purpose of a thesis is to enable the student to develop deeper knowledge, understanding, capabilities and attitudes in the context of the programme of study. The thesis should be written at the end of the programme and offers the opportunity to delve more deeply into and synthesize knowledge acquired in previous studies. A thesis for a Master of Science in Engineering/Master of Architecture or Master of Science programmes should place emphasis on the technical/scientific/architectural aspects of the subject matter.
 
 ## Learning outcomes (after completion of the course the student should be able to)
 
@@ -39,6 +42,7 @@ The learning objectives for a thesis are based on the objectives for Master of S
 
 - Within the framework for the specific project, identify which issues need to be addressed for relevant societal, ethical and ecological factors to be observed, and observe and discuss ethical aspects of research and development work, both pertaining to how the work is carried out as well as what it explores/develops.
 
-- Identify and discuss needs for further elucidation of different project aspects before decision-making or project realisation, when relevant.
+- Identify and discuss needs for further elucidation of different project aspects before decision-making or project realization, when relevant.
 
-[Syllabus from Chalmers](https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/MCCX04/?acYear=2025%2F2026).
+<!-- markdownlint-disable MD033 -->
+<p style="text-align:left; font-size:16px; font-style: italic; font-weight: bold">The full Chalmers syllabus can be downloaded from the icon at the top of this page.</p>

@@ -19,7 +19,7 @@ The courses I attended at NTU can be found on the [NTU courses page](https://sto
 <div class="education">
 <!-- Display projects without categories -->
 
-{% assign sorted_courses = site.courses | where: "folder", "msc_y1_courses" %}
+{% assign sorted_courses = site.courses | where: "folder", "msc_y1_courses" | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
