@@ -1,28 +1,44 @@
 name: Check for broken links on site
-
 on:
   workflow_run:
     workflows: [Deploy site]
     types: [completed]
-
 jobs:
   check-links-on-site:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-
     steps:
-      - name: Download built site 📦
-        uses: actions/download-artifact@v4
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
         with:
-          name: site
-          path: _site
-
+          ruby-version: "3.2.2"
+          bundler-cache: true
+      - name: Install Node (for purgecss if needed) 📦
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies 🔧
+        run: |
+          pip3 install --upgrade jupyter
+          bundle install
+      - name: Build Jekyll site 🏗️
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           fail: true
           args: >
             --offline
+            --remap '_site(/?.*)/assets/(.*) _site/assets/$2'
+            --exclude-path '.*\.webp'
             --verbose
             --no-progress
-            _site/**/*.html
+            '_site/**/*.html'
