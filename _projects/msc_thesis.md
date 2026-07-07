@@ -1,6 +1,6 @@
 ---
-title: "Master’s"
-description: Master’s thesis in physics.
+title: "Master’s Thesis"
+description:
 img: assets/img/front_fig.pdf
 category: Theses
 pdf: "msc_thesis.pdf"

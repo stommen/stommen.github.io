@@ -1,6 +1,6 @@
 ---
-title: "Bachelor’s"
-description: Bachelor’s thesis in engineering physics.
+title: "Bachelor’s Thesis"
+description:
 img: assets/img/bsc_thesis.png
 category: Theses
 pdf: "bsc_thesis_gibbs_function.pdf"

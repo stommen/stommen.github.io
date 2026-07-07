@@ -3,7 +3,7 @@ layout: page
 title: Education
 permalink: /education/
 description: |
-  This page contains the courses I have taken during my university time. I hold a Degree of Master of Science in Engineering specialized in engineering physics from Chalmers University of Technology. I have also completed 60 ECTS of freestanding courses in Business and Economics from the University of Gothenburg. During spring 2025, I attended an exchange semester at Nanyang Technological University as part of my Master's studies in Physics.
+  This page contains the courses I have taken during my university time. I hold a Degree of Master of Science in Engineering specialized in engineering physics from Chalmers University of Technology, where I during my the first year of my Master's attended an exchange semester at Nanyang Technological University (NTU) in Singapore. I have also completed 60 ECTS of freestanding courses in Business and Economics from the University of Gothenburg.
 nav: true
 nav_order: 4
 display_categories:

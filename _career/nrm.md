@@ -2,7 +2,7 @@
 layout: page_w_pdf
 title: Nordisk Rörmärkning AB
 description: Part-time consulant
-img: assets/img/nrm.jpeg
+img: assets/img/nrm.jpg
 importance: 2
 category:
 pdf: "nrm_OS_july24.pdf"

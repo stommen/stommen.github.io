@@ -2,7 +2,7 @@
 layout: page_w_pdf
 title: Open Quantum Systems
 description: Report as part of the PH3406-course at NTU.
-img: assets/img/density_matrix_meas.pdf
+img: assets/img/open_quantum_systems.pdf
 pdf: ph3406_project_OS.pdf
 category: Reports
 display_categories:

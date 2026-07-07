@@ -2,7 +2,7 @@
 layout: page
 title: Chalmers University of Technology -- 202Q-lab
 description: Research Assistant
-img: assets/img/202qlab.jpeg
+img: assets/img/202qlab.jpg
 importance: 2
 category:
 nav: true
