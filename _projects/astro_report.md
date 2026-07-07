@@ -2,7 +2,7 @@
 layout: page_w_pdf
 title: Astrophysics
 description: Report as part of the RRY125-course at Chalmers.
-img: assets/img/mapofthemilkyway.jpeg
+img: assets/img/mapofthemilkyway.jpg
 pdf: SALSA_report_Oscar_Stommendal.pdf
 category: Reports
 display_categories:
