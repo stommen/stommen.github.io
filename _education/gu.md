@@ -10,7 +10,6 @@ horizontal: false
 ---
 
 <!-- markdownlint-disable MD033 -->
-
 <div class="education">
   {% if site.enable_categories and page.display_categories %}
     <!-- Display categorized projects -->
@@ -18,8 +17,8 @@ horizontal: false
     <a id="{{ category }}" href=".#{{ category }}">
       <h2 class="category">{{ category }}</h2>
     </a>
-    {% assign categorized_courses = site.courses | where: "category", category %}
-    {% assign sorted_courses = categorized_courses %}
+    {% assign categorized_course = site.courses | where: "category", category %}
+    {% assign sorted_courses = categorized_course | sort: "importance" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
     <div class="container">
