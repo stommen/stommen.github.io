@@ -250,6 +250,9 @@ include: ["_pages"]
 exclude:
   - bin/
   - CONTRIBUTING.md
+  - _cv/cover_letters/
+  - _cv/cv_eng.tex
+  - _cv/cv.tex
   - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
@@ -260,6 +263,7 @@ exclude:
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
+  - not_used
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
@@ -278,7 +282,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
