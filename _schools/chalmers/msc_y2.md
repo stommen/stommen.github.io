@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Master year 2
+title: Master Year 2
 description: |
   Courses during year 2 of my Master's degree.
-img:
+img: assets/img/msc_y2.png
 category: Master
 nav: true
 nav_order: 3

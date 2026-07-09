@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning and Statistics
+title: ML and Statistics
 description: |
   Reports as part of the TIF285 course at Chalmers.
 img: assets/img/ML.pdf

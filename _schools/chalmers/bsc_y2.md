@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Bachelor year 2
+title: Bachelor Year 2
 description: Courses during year 2 of my Bachelor's degree.
-img: assets/img/bsc_y2.jpeg
+img: assets/img/bsc_y2.png
 category: Bachelor
 nav: true
 nav_order: 3

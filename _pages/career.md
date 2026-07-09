@@ -4,7 +4,7 @@ title: Career
 permalink: /career/
 description: |
   This page contains information about my work experience, including everything from simple summer work to
-  recent, more engineering-like, employment.
+  recent, more engineering-like, employment. Currently, I am a research assistant at Chalmers University of Technology, where I work with experimental superconducting quantum computing in the 202Q-lab, hoping to continue as a PhD student in the near future.
 nav: true
 nav_order: 3
 display_categories:
