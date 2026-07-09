@@ -1,9 +1,9 @@
 ---
-title: "Quantum Mechanics"
+title: "TIF091 <br> Quantum Mechanics"
 description: |
   Studies of the atomic spectra of different elements.
-img: assets/img/quantum_exp.jpeg
-category: TIF091/096 (BSc)
+img: assets/img/quantum_exp.png
+category:
 importance: 1
 layout: page_w_pdf
 pdf: "quantum_report.pdf"

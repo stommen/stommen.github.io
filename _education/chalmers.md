@@ -3,7 +3,7 @@ layout: page
 title: Chalmers University of Technology
 description: |
   Degree of Master of Science in Engineering specialized in engineering physics.
-img: assets/img/chalmers.png
+img: assets/img/chalmers.pdf
 importance: 1
 category:
 nav: true

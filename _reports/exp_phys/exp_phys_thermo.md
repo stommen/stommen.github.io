@@ -1,10 +1,10 @@
 ---
-title: "Thermodynamics"
+title: "TIF091 <br> Thermodynamics"
 description: |
   Study of different types of phase transitions and what they can teach us
   about an element.
 img: assets/img/thermo_exp.png
-category: TIF091/096 (BSc)
+category:
 importance: 1
 layout: page_w_pdf
 pdf: "thermo_report.pdf"

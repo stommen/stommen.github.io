@@ -1,5 +1,5 @@
 ---
-title: "Master’s Thesis"
+title: "Master’s Thesis<br><br>"
 description:
 img: assets/img/front_fig.pdf
 category: Theses

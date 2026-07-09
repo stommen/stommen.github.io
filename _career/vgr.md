@@ -2,7 +2,7 @@
 layout: page
 title: Norra Älvsborgs Länssjukhus (NÄL)
 description: Summerworker
-img: assets/img/vgr.png
+img: assets/img/vgr.pdf
 importance: 2
 category:
 nav: true

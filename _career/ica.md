@@ -2,7 +2,7 @@
 layout: page_w_pdf
 title: ICA Supermarket Mellerud
 description: Summerworker
-img: assets/img/ICA_logo.png
+img: assets/img/ica.pdf
 importance: 2
 category:
 pdf: "ica_OS_aug23.pdf"

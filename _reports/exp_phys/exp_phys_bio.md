@@ -1,10 +1,10 @@
 ---
-title: "Biophysics"
+title: "TIF295 <br> Biophysics<br><br>"
 description: |
-  Creation and Characterization of Lipid Nanoparticles Using Nanoparticle Tracking
-  Analysis and Flourescent Microscopy.
+  Creation and characterization of lipid nanoparticles using nanoparticle tracking
+  analysis and flourescent microscopy.
 img: assets/img/bio.pdf
-category: TIF295 (MSc)
+category:
 importance: 1
 layout: page_w_pdf
 pdf: "bio_report.pdf"

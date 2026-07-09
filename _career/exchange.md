@@ -2,7 +2,7 @@
 layout: page_w_pdf
 title: Chalmers University of Technology
 description: Exchange Ambassador
-img: assets/img/chalmers.png
+img: assets/img/chalmers.pdf
 importance: 2
 category:
 pdf: "exchange_recommendation_letter.pdf"

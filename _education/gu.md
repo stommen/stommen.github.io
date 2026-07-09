@@ -1,6 +1,8 @@
 ---
 layout: page
-title: University of Gothenburg
+# Add new line after "gothenburg" to avoid the "description" being too long and causing issues with the page layout.
+title: |
+  University of Gothenburg<br><br>
 description: 60 ECTS freestanding courses in Business and Economics.
 img: assets/img/gu.png
 importance: 1

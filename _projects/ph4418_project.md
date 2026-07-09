@@ -1,6 +1,6 @@
 ---
 layout: page_w_pdf
-title: Machine Learning and AI
+title: ML and AI<br><br>
 description: Report as part of the PH4418-course at NTU.
 img: assets/img/transformer.pdf
 pdf: Oscar_Stommendal_PH4418 Report_2025.pdf

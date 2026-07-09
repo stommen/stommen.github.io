@@ -1,10 +1,10 @@
 ---
-title: "Solid state physics"
+title: "TIF096 <br> Solid state physics"
 description: |
   Element determination, the optical transmission of GaAs and
-  Hall effect in doped germanium
-img: assets/img/hall_effect.jpeg
-category: TIF091/096 (BSc)
+  Hall effect in doped germanium.
+img: assets/img/hall_effect.png
+category:
 importance: 1
 layout: page_w_pdf
 pdf: "ssp_report.pdf"
