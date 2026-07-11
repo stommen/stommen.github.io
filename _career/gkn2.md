@@ -2,7 +2,9 @@
 layout: page_w_pdf
 title: GKN Aerospace
 description: Research Technician – Digital Engineering and Simulation
-img: assets/img/gkn.png
+start_date: "2023-09-01"
+date_label: Sep 2023 - Jun 2024
+img: assets/img/gkn.pdf
 importance: 2
 category:
 pdf: "gkn_OS_july24.pdf"

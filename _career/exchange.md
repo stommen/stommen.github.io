@@ -2,6 +2,8 @@
 layout: page_w_pdf
 title: Chalmers University of Technology
 description: Exchange Ambassador
+start_date: "2025-09-01"
+date_label: Sep 2025 - Jun 2026
 img: assets/img/chalmers.pdf
 importance: 2
 category:

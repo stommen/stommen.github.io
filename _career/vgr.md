@@ -2,6 +2,8 @@
 layout: page
 title: Norra Älvsborgs Länssjukhus (NÄL)
 description: Summerworker
+start_date: "2019-07-01"
+date_label: Jul 2019 - Aug 2019
 img: assets/img/vgr.pdf
 importance: 2
 category:

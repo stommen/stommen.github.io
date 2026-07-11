@@ -2,6 +2,8 @@
 layout: page_w_pdf
 title: ICA Supermarket Mellerud
 description: Summerworker
+start_date: "2020-06-01"
+date_label: Summers 2020 - 2022
 img: assets/img/ica.pdf
 importance: 2
 category:

@@ -2,7 +2,9 @@
 layout: page_w_pdf
 title: GKN Aerospace
 description: Summer Intern 2023 – Digital Engineering and Simulation
-img: assets/img/gkn.png
+start_date: "2023-06-01"
+date_label: Jun 2023 - Aug 2023
+img: assets/img/gkn.pdf
 importance: 2
 category:
 pdf: "gkn_OS_july24.pdf"

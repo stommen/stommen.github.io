@@ -2,7 +2,9 @@
 layout: page_w_pdf
 title: Nordisk Rörmärkning AB
 description: Part-time consulant
-img: assets/img/nrm.png
+start_date: "2021-01-01"
+date_label: 2021 - 2023
+img: assets/img/nrm.pdf
 importance: 2
 category:
 pdf: "nrm_OS_july24.pdf"

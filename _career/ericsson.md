@@ -2,6 +2,8 @@
 layout: page_w_pdf
 title: Ericsson
 description: Summer Intern 2025 - Emerging Compute
+start_date: "2025-06-01"
+date_label: Jun 2025 - Aug 2025
 img: assets/img/ericsson.pdf
 importance: 2
 category:

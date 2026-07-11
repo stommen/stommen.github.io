@@ -3,8 +3,7 @@ layout: page
 title: Career
 permalink: /career/
 description: |
-  This page contains information about my work experience, including everything from simple summer work to
-  recent, more engineering-like, employment. Currently, I am a research assistant at Chalmers University of Technology, where I work with experimental superconducting quantum computing in the 202Q-lab, hoping to continue as a PhD student in the near future.
+  This page contains information about my work experience, including everything from simple summer work to recent, more engineering-like, employment. Currently, I am a research assistant at Chalmers University of Technology, where I work with experimental superconducting quantum computing in the 202Q-lab, hoping to continue as a PhD student in the near future.
 nav: true
 nav_order: 3
 display_categories:
@@ -12,7 +11,6 @@ horizontal: false
 ---
 
 <!-- markdownlint-disable MD033 -->
-<!-- pages/projects.md -->
 <div class="career">
 {% if site.enable_career_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -44,25 +42,14 @@ horizontal: false
 
 <!-- Display work without categories -->
 
-{% assign sorted_career = site.career | sort: "importance" %}
+{% assign sorted_career = site.career | sort: "start_date" %}
 
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+  <div class="career-timeline-wrap">
+    <ol class="career-timeline">
     {% for x in sorted_career %}
-      {% include x_horizontal.liquid %}
+      {% include career_timeline_card.liquid %}
     {% endfor %}
-    </div>
+    </ol>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for x in sorted_career %}
-      {% include x_smaller.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
 {% endif %}
 </div>

@@ -1,0 +1,30 @@
+<li class="career-timeline-item">
+
+  <span class="career-timeline-date">
+    {{ x.start_date | date: "%Y" }}
+  </span>
+
+  <span class="career-timeline-marker"></span>
+
+  <a class="career-timeline-card hoverable"
+     href="{% if x.redirect %}{{ x.redirect }}{% else %}{{ x.url | relative_url }}{% endif %}">
+
+    {% if x.img %}
+      <div class="career-timeline-image">
+        {% include figure.liquid loading="eager"
+          path=x.img
+          sizes="72px"
+          alt=x.title
+          class="img-fluid" %}
+      </div>
+    {% endif %}
+
+    <div class="career-timeline-copy">
+      <p class="career-timeline-period">{{ x.date_label }}</p>
+      <h2>{{ x.title }}</h2>
+      <p>{{ x.description }}</p>
+    </div>
+
+  </a>
+
+</li>
