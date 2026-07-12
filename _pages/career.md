@@ -4,6 +4,8 @@ title: Career
 permalink: /career/
 description: |
   This page contains information about my work experience, including everything from simple summer work to recent, more engineering-like, employment. Currently, I am a research assistant at Chalmers University of Technology, where I work with experimental superconducting quantum computing in the 202Q-lab, hoping to continue as a PhD student in the near future.
+  <br><br>
+  The timeline below is sorted in reverse chronological order. Click on the cards to expand them and see more information about each work experience, including my responsibilities, the technologies I used, and recommendation letters from my supervisors.
 nav: true
 nav_order: 3
 display_categories:
@@ -42,7 +44,7 @@ horizontal: false
 
 <!-- Display work without categories -->
 
-{% assign sorted_career = site.career | sort: "start_date" %}
+{% assign sorted_career = site.career | sort: "start_date" | reverse %}
 
   <div class="career-timeline-wrap">
     <ol class="career-timeline">

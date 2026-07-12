@@ -686,7 +686,6 @@ footer.sticky-bottom {
     }
   }
 
-
   // Each timeline entry
   .career-timeline-item {
     position: relative;
@@ -696,7 +695,6 @@ footer.sticky-bottom {
     margin: 3rem 0;
     min-height: 150px;
   }
-
 
   // Timeline marker
   .career-timeline-marker {
@@ -710,7 +708,6 @@ footer.sticky-bottom {
     z-index: 2;
   }
 
-
   // Year label
   .career-timeline-date {
     color: var(--global-theme-color);
@@ -719,10 +716,8 @@ footer.sticky-bottom {
     white-space: nowrap;
   }
 
-
   // Odd entries: year left, card right
   .career-timeline-item:nth-child(odd) {
-
     .career-timeline-card {
       grid-column: 3;
       grid-row: 1;
@@ -737,10 +732,8 @@ footer.sticky-bottom {
     }
   }
 
-
   // Even entries: card left, year right
   .career-timeline-item:nth-child(even) {
-
     .career-timeline-card {
       grid-column: 1;
       grid-row: 1;
@@ -757,7 +750,6 @@ footer.sticky-bottom {
       margin-left: 1rem;
     }
   }
-
 
   // Cards
   .career-timeline-card {
@@ -789,7 +781,6 @@ footer.sticky-bottom {
     }
   }
 
-
   // Default image position (left side)
   .career-timeline-image {
     flex: 0 0 200px;
@@ -809,16 +800,13 @@ footer.sticky-bottom {
     }
   }
 
-
   // Fix border when image is on right
   .career-timeline-item:nth-child(even) {
-
     .career-timeline-image {
       border-right: none;
       border-left: 1px solid var(--global-divider-color);
     }
   }
-
 
   .career-timeline-copy {
     flex: 1;
@@ -837,14 +825,12 @@ footer.sticky-bottom {
     }
   }
 
-
   .career-timeline-period {
     color: var(--global-text-color-light);
     font-size: 0.78rem !important;
     font-weight: 500;
     margin-bottom: 0.45rem !important;
   }
-
 
   h2.category {
     color: var(--global-divider-color);
@@ -856,20 +842,15 @@ footer.sticky-bottom {
   }
 }
 
-
 // Mobile version
 @media (max-width: 768px) {
-
   .career {
-
     .career-timeline {
-
       &::before {
         left: 20px;
         transform: none;
       }
     }
-
 
     .career-timeline-item {
       display: grid;
@@ -877,12 +858,10 @@ footer.sticky-bottom {
       margin: 2rem 0;
     }
 
-
     .career-timeline-marker {
       grid-column: 1;
       grid-row: 1;
     }
-
 
     .career-timeline-card {
       grid-column: 2 !important;
@@ -893,7 +872,6 @@ footer.sticky-bottom {
       flex-direction: column !important;
     }
 
-
     .career-timeline-date {
       grid-column: 2 !important;
       grid-row: 2 !important;
@@ -902,7 +880,6 @@ footer.sticky-bottom {
 
       margin: 0.5rem 0 0 0 !important;
     }
-
 
     .career-timeline-image {
       flex: none;
